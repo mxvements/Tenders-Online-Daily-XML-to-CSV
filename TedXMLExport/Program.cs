@@ -1,9 +1,9 @@
-﻿using LeerTedXML;
-using LeerTedXML.CSVCreate;
+﻿using LeerTedXML.CSVCreate;
 using LeerTedXML.XMLDocument;
 using LeerTedXML.XMLReader;
 using System.Diagnostics;
-
+using TedXMLExport.Menu;
+using TedXMLExport.XMLTedObject;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -20,12 +20,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
 
         //methods
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns>
-        /// </returns>
         private static void RunMainMenu()
         {
             string separator     = "****************************************************";

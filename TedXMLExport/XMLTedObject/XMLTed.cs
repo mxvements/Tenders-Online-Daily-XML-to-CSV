@@ -12,7 +12,7 @@ using System.Xml.Serialization;
  * OK F02 comp-dial cn-standard
  * F02 neg-w-call cn-standard
  */
-namespace LeerTedXML
+namespace TedXMLExport.XMLTedObject
 {
     [XmlRoot(ElementName = "TED_EXPORT")]
     public class TED_EXPORT
@@ -49,7 +49,7 @@ namespace LeerTedXML
         [XmlElement(ElementName = "LINKS_SECTION")]
         public LINKS_SECTION? LINKS_SECTION { get; set; } = new LINKS_SECTION();
 
-        [XmlElement(ElementName = "CODED_DATA_SECTION")] 
+        [XmlElement(ElementName = "CODED_DATA_SECTION")]
         public CODED_DATA_SECTION? CODED_DATA_SECTION { get; set; } = new CODED_DATA_SECTION();
 
         [XmlElement(ElementName = "TRANSLATION_SECTION")]
@@ -167,13 +167,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
 
@@ -198,12 +198,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
-            } catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
 
@@ -227,13 +228,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
 
@@ -256,13 +257,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
 
         }
@@ -375,16 +376,16 @@ namespace LeerTedXML
 
         }
         public COLL_OJ(XElement root)
-        {   
+        {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -406,13 +407,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -434,12 +435,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -501,12 +503,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._Text = root.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -538,15 +541,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root  = root;
-                this._Text= root.Value;
-                this._LG = root.Attribute("LG")!.Value;
+                _root = root;
+                _Text = root.Value;
+                _LG = root.Attribute("LG")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
-                this._LG = String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _LG = string.Empty;
             }
         }
     }
@@ -568,13 +571,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._Text= root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -596,13 +599,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._VALUE = root.Attribute("VALUE")!.Value;
+                _root = root;
+                _VALUE = root.Attribute("VALUE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._VALUE = String.Empty;
+                _root = null;
+                _VALUE = string.Empty;
             }
         }
     }
@@ -624,12 +627,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text= String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -651,13 +655,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -681,15 +685,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._CODE = root.Attribute("CODE")!.Value;
-                this._Text = root.Value;
+                _root = root;
+                _CODE = root.Attribute("CODE")!.Value;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
-                this._CODE = String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CODE = string.Empty;
             }
         }
     }
@@ -714,15 +718,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._CODE = root.Attribute("CODE")!.Value;
-                this._Text= root.Value;
+                _root = root;
+                _CODE = root.Attribute("CODE")!.Value;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._CODE= String.Empty;
-                this._Text = String.Empty;
+                _root = null;
+                _CODE = string.Empty;
+                _Text = string.Empty;
             }
         }
 
@@ -748,14 +752,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._CODE = root.Attribute("CODE")!.Value;
-                this._Text = root.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _CODE = root.Attribute("CODE")!.Value;
+                _Text = root.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._CODE= String.Empty;
-                this._Text = String.Empty;
+                _root = null;
+                _CODE = string.Empty;
+                _Text = string.Empty;
             }
         }
     }
@@ -780,15 +785,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._CODE = root.Attribute("CODE")!.Value;
-                this._Text = root.Value;
+                _root = root;
+                _CODE = root.Attribute("CODE")!.Value;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._CODE= String.Empty;
-                this._Text = String.Empty;
+                _root = null;
+                _CODE = string.Empty;
+                _Text = string.Empty;
             }
         }
     }
@@ -823,17 +828,17 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._TYPE = root.Attribute("TYPE")!.Value;
-                this._CURRENCY = root.Attribute("CURRENCY")!.Value;
-                this._Text= root.Value;
+                _root = root;
+                _TYPE = root.Attribute("TYPE")!.Value;
+                _CURRENCY = root.Attribute("CURRENCY")!.Value;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._TYPE= String.Empty;
-                this._CURRENCY= String.Empty;
-                this._Text = String.Empty;
+                _root = null;
+                _TYPE = string.Empty;
+                _CURRENCY = string.Empty;
+                _Text = string.Empty;
             }
         }
     }
@@ -904,12 +909,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -931,13 +937,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -945,7 +951,7 @@ namespace LeerTedXML
     [XmlRoot(ElementName = "AA_AUTHORITY_TYPE")]
     public class AA_AUTHORITY_TYPE
     {
-        public XElement? _root { get; set;}
+        public XElement? _root { get; set; }
 
         [XmlAttribute(AttributeName = "CODE")]
         public string? _CODE { get; set; } = string.Empty;
@@ -961,14 +967,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root=root;
-                this._CODE = root.Attribute("CODE")!.Value;
-                this._Text = root.Value.ToString();
-            }catch(NullReferenceException)
+                _root = root;
+                _CODE = root.Attribute("CODE")!.Value;
+                _Text = root.Value.ToString();
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
-                this._CODE=String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CODE = string.Empty;
             }
         }
     }
@@ -992,15 +999,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text=root.Value.ToString();
-                this._CODE = root.Attribute("CODE")!.Value;
+                _root = root;
+                _Text = root.Value.ToString();
+                _CODE = root.Attribute("CODE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
-                this._CODE=String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CODE = string.Empty;
             }
         }
     }
@@ -1024,14 +1031,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root=root;
-                this._Text=root.Value.ToString();
-                this._CODE = root.Attribute("CODE")!.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value.ToString();
+                _CODE = root.Attribute("CODE")!.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
-                this._CODE=String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CODE = string.Empty;
             }
         }
 
@@ -1040,7 +1048,7 @@ namespace LeerTedXML
     [XmlRoot(ElementName = "PR_PROC")]
     public class PR_PROC
     {
-        public XElement? _root { get; set;}
+        public XElement? _root { get; set; }
 
         [XmlAttribute(AttributeName = "CODE")]
         public string? _CODE { get; set; } = string.Empty;
@@ -1056,15 +1064,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root=root;
-                this._Text=root.Value.ToString();
-                this._CODE = root.Attribute("CODE")!.Value;
+                _root = root;
+                _Text = root.Value.ToString();
+                _CODE = root.Attribute("CODE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text= String.Empty;
-                this._CODE=String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CODE = string.Empty;
             }
         }
     }
@@ -1088,15 +1096,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._Text=root.Value.ToString();
-                this._CODE = root.Attribute("CODE")!.Value;
+                _root = root;
+                _Text = root.Value.ToString();
+                _CODE = root.Attribute("CODE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text= String.Empty;
-                this._CODE=String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CODE = string.Empty;
             }
         }
     }
@@ -1120,14 +1128,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text= root.Value.ToString();
-                this._CODE = root.Attribute("CODE")!.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value.ToString();
+                _CODE = root.Attribute("CODE")!.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text= String.Empty;
-                this._CODE = String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CODE = string.Empty;
             }
         }
     }
@@ -1151,15 +1160,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
-                this._CODE = root.Attribute("CODE")!.Value;
+                _root = root;
+                _Text = root.Value.ToString();
+                _CODE = root.Attribute("CODE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
-                this._CODE = String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CODE = string.Empty;
             }
         }
     }
@@ -1173,7 +1182,7 @@ namespace LeerTedXML
         public string? _CODE { get; set; } = string.Empty;
         [XmlText]
         public string? _Text { get; set; } = string.Empty;
-        
+
         //ctor
         public MA_MAIN_ACTIVITIES()
         {
@@ -1183,15 +1192,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
-                this._CODE = root.Attribute("CODE")!.Value;
+                _root = root;
+                _Text = root.Value.ToString();
+                _CODE = root.Attribute("CODE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
-                this._CODE = String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CODE = string.Empty;
             }
         }
     }
@@ -1213,13 +1222,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -1241,13 +1250,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -1270,13 +1279,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._VALUE = root.Attribute("VALUE")!.Value;
+                _root = root;
+                _VALUE = root.Attribute("VALUE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._VALUE = String.Empty;
+                _root = null;
+                _VALUE = string.Empty;
             }
         }
     }
@@ -1327,12 +1336,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._LG = root.Attribute("LG")!.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _LG = root.Attribute("LG")!.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._LG = string.Empty;
+                _root = null;
+                _LG = string.Empty;
             }
         }
     }
@@ -1355,12 +1365,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -1382,13 +1393,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
 
         }
@@ -1418,12 +1429,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root=root;
-                this._Text=root.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text=string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -1459,15 +1471,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root  = root;
-                this._Text=root.Value;
-                this._LG = root.Attribute("LG")!.Value;
+                _root = root;
+                _Text = root.Value;
+                _LG = root.Attribute("LG")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text=string.Empty;
-                this._LG=string.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _LG = string.Empty;
             }
         }
     }
@@ -1507,7 +1519,7 @@ namespace LeerTedXML
 
         [XmlElement(ElementName = "COMPLEMENTARY_INFO")]
         public COMPLEMENTARY_INFO? _COMPLEMENTARY_INFO { get; set; } = new COMPLEMENTARY_INFO();
-        
+
         //ATTRIBUTES       
         [XmlAttribute(AttributeName = "CATEGORY")]
         public string? _CATEGORY { get; set; } = string.Empty;
@@ -1527,20 +1539,21 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._CATEGORY = root.Attribute("CATEGORY")!.Value;
-                this._FORM = root.Attribute("FORM")!.Value;
-                this._LG = root.Attribute("LG")!.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _CATEGORY = root.Attribute("CATEGORY")!.Value;
+                _FORM = root.Attribute("FORM")!.Value;
+                _LG = root.Attribute("LG")!.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._CATEGORY = String.Empty;
-                this._FORM = String.Empty;
-                this._LG = String.Empty;
+                _root = null;
+                _CATEGORY = string.Empty;
+                _FORM = string.Empty;
+                _LG = string.Empty;
             }
         }
     }
-    
+
     //NOTA: no debería de borrar esto ya que tienen rutas XML diferentes
     [XmlRoot(ElementName = "F02_2014")]
     public class F02_2014
@@ -1588,17 +1601,17 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._CATEGORY = root.Attribute("CATEGORY")!.Value;
-                this._FORM = root.Attribute("FORM")!.Value;
-                this._LG = root.Attribute("LG")!.Value;
+                _root = root;
+                _CATEGORY = root.Attribute("CATEGORY")!.Value;
+                _FORM = root.Attribute("FORM")!.Value;
+                _LG = root.Attribute("LG")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._CATEGORY = String.Empty;
-                this._FORM = String.Empty;
-                this._LG = String.Empty;
+                _root = null;
+                _CATEGORY = string.Empty;
+                _FORM = string.Empty;
+                _LG = string.Empty;
             }
         }
     }
@@ -1631,12 +1644,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root!;
-                this._VALUE = root.Attribute("VALUE")!.Value;   
-            }catch(NullReferenceException)
+                _root = root!;
+                _VALUE = root.Attribute("VALUE")!.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._VALUE = String.Empty;
+                _root = null;
+                _VALUE = string.Empty;
             }
         }
     }
@@ -1661,7 +1675,7 @@ namespace LeerTedXML
         public ADDRESS_PARTICIPATION? _ADDRESS_PARTICIPATION { get; set; } = new ADDRESS_PARTICIPATION();
 
         [XmlElement(ElementName = "CA_TYPE")]
-        public CA_TYPE? _CA_TYPE{ get; set; } = new CA_TYPE();
+        public CA_TYPE? _CA_TYPE { get; set; } = new CA_TYPE();
 
         [XmlElement(ElementName = "CA_TYPE_OTHER")]
         public CA_TYPE_OTHER? _CA_TYPE_OTHER { get; set; } = new CA_TYPE_OTHER();
@@ -1692,12 +1706,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value.ToString();
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -1718,13 +1733,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text= string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -1746,13 +1761,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -1904,13 +1919,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._VALUE = root.Attribute("VALUE")!.Value;
+                _root = root;
+                _VALUE = root.Attribute("VALUE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._VALUE = String.Empty;
+                _root = null;
+                _VALUE = string.Empty;
             }
         }
     }
@@ -1932,13 +1947,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -1960,13 +1975,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._VALUE = root.Attribute("VALUE")!.Value;
+                _root = root;
+                _VALUE = root.Attribute("VALUE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._VALUE = String.Empty;
+                _root = null;
+                _VALUE = string.Empty;
             }
         }
     }
@@ -1988,13 +2003,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root= root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text= String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2016,13 +2031,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2044,13 +2059,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2072,13 +2087,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2100,13 +2115,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2128,13 +2143,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._VALUE = root.Attribute("VALUE")!.Value;
+                _root = root;
+                _VALUE = root.Attribute("VALUE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._VALUE = String.Empty;
+                _root = null;
+                _VALUE = string.Empty;
             }
         }
     }
@@ -2156,13 +2171,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2184,13 +2199,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2212,13 +2227,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2240,13 +2255,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value;
+                _root = root;
+                _Text = root.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2268,13 +2283,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._CODE = root.Attribute("CODE")!.Value;
+                _root = root;
+                _CODE = root.Attribute("CODE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._CODE = String.Empty;
+                _root = null;
+                _CODE = string.Empty;
             }
         }
     }
@@ -2296,13 +2311,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2324,13 +2339,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2396,12 +2411,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value.ToString();
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2431,13 +2447,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._CODE = root.Attribute("CODE")!.Value;
+                _root = root;
+                _CODE = root.Attribute("CODE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._CODE= String.Empty;
+                _root = null;
+                _CODE = string.Empty;
             }
         }
 
@@ -2540,13 +2556,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2603,13 +2619,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2631,13 +2647,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2662,15 +2678,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
-                this._TYPE = root.Attribute("TYPE")!.Value;
+                _root = root;
+                _Text = root.Value.ToString();
+                _TYPE = root.Attribute("TYPE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
-                this._TYPE = String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _TYPE = string.Empty;
             }
         }
     }
@@ -2692,13 +2708,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2720,13 +2736,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2755,13 +2771,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2783,13 +2799,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2818,13 +2834,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2846,13 +2862,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2877,15 +2893,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
-                this._CURRENCY = root.Attribute("CURRENCY")!.Value;
+                _root = root;
+                _Text = root.Value.ToString();
+                _CURRENCY = root.Attribute("CURRENCY")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
-                this._CURRENCY = String.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CURRENCY = string.Empty;
             }
         }
     }
@@ -2907,13 +2923,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -2944,12 +2960,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._CTYPE = root.Attribute("CTYPE")!.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _CTYPE = root.Attribute("CTYPE")!.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._CTYPE = String.Empty;
+                _root = null;
+                _CTYPE = string.Empty;
             }
         }
     }
@@ -2971,13 +2988,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3001,14 +3018,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
-                this._CURRENCY = root.Attribute("CURRENCY")!.Value;
-            }catch(NullReferenceException)
+                _root = root;
+                _Text = root.Value.ToString();
+                _CURRENCY = root.Attribute("CURRENCY")!.Value;
+            }
+            catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
-                this._CURRENCY = string.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _CURRENCY = string.Empty;
             }
         }
     }
@@ -3037,13 +3055,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text=root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3106,13 +3124,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._CTYPE = root.Attribute("CTYPE")!.Value;
+                _root = root;
+                _CTYPE = root.Attribute("CTYPE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._CTYPE = string.Empty;
+                _root = null;
+                _CTYPE = string.Empty;
             }
         }
     }
@@ -3178,7 +3196,7 @@ namespace LeerTedXML
          * PT_COMPETITIVE_NEGOTIATION
          * PT_COMPETITIVE_DIALOGUE
          */
-        public String? _first_element { get; set; } = string.Empty;
+        public string? _first_element { get; set; } = string.Empty;
 
         [XmlElement(ElementName = "NB_PARTICIPANTS")]
         public NB_PARTICIPANTS? _NB_PARTICIPANTS { get; set; } = new NB_PARTICIPANTS();
@@ -3251,13 +3269,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3279,13 +3297,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3307,13 +3325,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3335,13 +3353,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3363,13 +3381,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = String.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3405,13 +3423,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._VALUE = root.Attribute("VALUE")!.Value;
+                _root = root;
+                _VALUE = root.Attribute("VALUE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._VALUE = string.Empty;
+                _root = null;
+                _VALUE = string.Empty;
             }
         }
     }
@@ -3433,13 +3451,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3468,13 +3486,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3496,13 +3514,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3523,13 +3541,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3553,15 +3571,15 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
-                this._TYPE = root.Attribute("TYPE")!.Value;
+                _root = root;
+                _Text = root.Value.ToString();
+                _TYPE = root.Attribute("TYPE")!.Value;
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
-                this._TYPE = string.Empty;
+                _root = null;
+                _Text = string.Empty;
+                _TYPE = string.Empty;
             }
         }
     }
@@ -3589,13 +3607,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3633,13 +3651,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3659,13 +3677,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }
@@ -3855,13 +3873,13 @@ namespace LeerTedXML
         {
             try
             {
-                this._root = root;
-                this._Text = root.Value.ToString();
+                _root = root;
+                _Text = root.Value.ToString();
             }
             catch (NullReferenceException)
             {
-                this._root = null;
-                this._Text = string.Empty;
+                _root = null;
+                _Text = string.Empty;
             }
         }
     }

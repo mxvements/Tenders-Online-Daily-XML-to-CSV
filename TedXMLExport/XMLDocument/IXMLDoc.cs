@@ -1,4 +1,6 @@
-﻿namespace LeerTedXML.XMLDocument
+﻿using TedXMLExport.XMLTedObject;
+
+namespace LeerTedXML.XMLDocument
 {
     internal interface IXMLDoc
     {

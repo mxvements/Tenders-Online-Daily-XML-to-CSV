@@ -6,7 +6,8 @@ using System.Reflection.Metadata;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 using System.Xml.Linq;
-
+using TedXMLExport.Menu;
+using TedXMLExport.XMLTedObject;
 
 namespace LeerTedXML.XMLDocument
 {
