@@ -1,0 +1,380 @@
+﻿<TED_EXPORT xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://publications.europa.eu/resource/schema/ted/R2.0.9/publication" xmlns:n2021="http://publications.europa.eu/resource/schema/ted/2021/nuts" xsi:schemaLocation="http://publications.europa.eu/resource/schema/ted/R2.0.9/publication TED_EXPORT.xsd" VERSION="R2.0.9.S05.E01" DOC_ID="107244-2022" EDITION="2022041">
+	<TECHNICAL_SECTION>
+		<RECEPTION_ID>22-104609-001</RECEPTION_ID>
+		<DELETION_DATE>20220325</DELETION_DATE>
+		<FORM_LG_LIST>DE </FORM_LG_LIST>
+		<COMMENTS>From Convertor</COMMENTS>
+	</TECHNICAL_SECTION>
+	<LINKS_SECTION>
+		<XML_SCHEMA_DEFINITION_LINK xlink:type="simple" xlink:href="https://ted.europa.eu" xlink:title="TED WEBSITE"/>
+		<OFFICIAL_FORMS_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+		<FORMS_LABELS_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+		<ORIGINAL_CPV_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+		<ORIGINAL_NUTS_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+	</LINKS_SECTION>
+	<CODED_DATA_SECTION>
+		<REF_OJS>
+			<COLL_OJ>S</COLL_OJ>
+			<NO_OJ>41</NO_OJ>
+			<DATE_PUB>20220228</DATE_PUB>
+		</REF_OJS>
+		<NOTICE_DATA>
+			<NO_DOC_OJS>2022/S 041-107244</NO_DOC_OJS>
+			<URI_LIST>
+				<URI_DOC LG="DE">https://ted.europa.eu/udl?uri=TED:NOTICE:107244-2022:TEXT:DE:HTML</URI_DOC>
+			</URI_LIST>
+			<LG_ORIG>DE</LG_ORIG>
+			<ISO_COUNTRY VALUE="DE"/>
+			<IA_URL_GENERAL>www.vermoegenundbau-bw.de</IA_URL_GENERAL>
+			<IA_URL_ETENDERING>https://vergabe.landbw.de/NetServer/PublicationControllerServlet?function=Detail&TWOID=54321-Tender-17d5b67aed3-3d75331ace24f93d</IA_URL_ETENDERING>
+			<ORIGINAL_CPV CODE="71200000">Architectural and related services</ORIGINAL_CPV>
+			<n2021:CA_CE_NUTS CODE="DE138">Konstanz</n2021:CA_CE_NUTS>
+		</NOTICE_DATA>
+		<CODIF_DATA>
+			<DS_DATE_DISPATCH>20220223</DS_DATE_DISPATCH>
+			<DT_DATE_FOR_SUBMISSION>20220325 23:59</DT_DATE_FOR_SUBMISSION>
+			<AA_AUTHORITY_TYPE CODE="3">Regional or local authority</AA_AUTHORITY_TYPE>
+			<TD_DOCUMENT_TYPE CODE="D">Design contest</TD_DOCUMENT_TYPE>
+			<NC_CONTRACT_NATURE CODE="4">Services</NC_CONTRACT_NATURE>
+			<PR_PROC CODE="2">Restricted procedure</PR_PROC>
+			<RP_REGULATION CODE="4">European Union</RP_REGULATION>
+			<TY_TYPE_BID CODE="9">Not applicable</TY_TYPE_BID>
+			<AC_AWARD_CRIT CODE="8">Other</AC_AWARD_CRIT>
+			<MA_MAIN_ACTIVITIES CODE="F">Economic and financial affairs</MA_MAIN_ACTIVITIES>
+			<HEADING>01C12</HEADING>
+			<INITIATOR>01</INITIATOR>
+		</CODIF_DATA>
+	</CODED_DATA_SECTION>
+	<TRANSLATION_SECTION>
+		<ML_TITLES>
+			<ML_TI_DOC LG="BG">
+				<TI_CY>Гepмaния</TI_CY>
+				<TI_TOWN>Констанц</TI_TOWN>
+				<TI_TEXT>
+					<P>Архитектурни и свързани с тях услуги</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="CS">
+				<TI_CY>Německo</TI_CY>
+				<TI_TOWN>Kostnice</TI_TOWN>
+				<TI_TEXT>
+					<P>Architektonické a související služby</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="DA">
+				<TI_CY>Tyskland</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Arkitektvirksomhed samt hermed beslægtet virksomhed</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="DE">
+				<TI_CY>Deutschland</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Dienstleistungen von Architekturbüros</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="EL">
+				<TI_CY>Γερμανία</TI_CY>
+				<TI_TOWN>Κωνστάντσα</TI_TOWN>
+				<TI_TEXT>
+					<P>Αρχιτεκτονικές και συναφείς υπηρεσίες</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="EN">
+				<TI_CY>Germany</TI_CY>
+				<TI_TOWN>Constance</TI_TOWN>
+				<TI_TEXT>
+					<P>Architectural and related services</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="ES">
+				<TI_CY>Alemania</TI_CY>
+				<TI_TOWN>Constanza</TI_TOWN>
+				<TI_TEXT>
+					<P>Servicios de arquitectura y servicios conexos</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="ET">
+				<TI_CY>Saksamaa</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Arhitektuuri- ja sellega seotud teenused</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="FI">
+				<TI_CY>Saksa</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Arkkitehtipalvelut</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="FR">
+				<TI_CY>Allemagne</TI_CY>
+				<TI_TOWN>Constance</TI_TOWN>
+				<TI_TEXT>
+					<P>Services d'architecture</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="GA">
+				<TI_CY>Ghearmáin, an</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Architectural and related services</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="HR">
+				<TI_CY>Njemačka</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Arhitektonske i srodne usluge</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="HU">
+				<TI_CY>Németország</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Építészeti és ezzel kapcsolatos szolgáltatások</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="IT">
+				<TI_CY>Germania</TI_CY>
+				<TI_TOWN>Costanza</TI_TOWN>
+				<TI_TEXT>
+					<P>Servizi architettonici e servizi affini</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="LT">
+				<TI_CY>Vokietija, VFR</TI_CY>
+				<TI_TOWN>Konstanca</TI_TOWN>
+				<TI_TEXT>
+					<P>Architektūros ir susijusios paslaugos</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="LV">
+				<TI_CY>Vācija</TI_CY>
+				<TI_TOWN>Konstanca</TI_TOWN>
+				<TI_TEXT>
+					<P>Arhitektūras un saistītie pakalpojumi</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="MT">
+				<TI_CY>il-Ġermanja</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Servizzi ta' l-arkitettura u dawk relatati</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="NL">
+				<TI_CY>Duitsland</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Dienstverlening op het gebied van architectuur en dergelijke</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="PL">
+				<TI_CY>Niemcy</TI_CY>
+				<TI_TOWN>Konstancja</TI_TOWN>
+				<TI_TEXT>
+					<P>Usługi architektoniczne i podobne</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="PT">
+				<TI_CY>Alemanha</TI_CY>
+				<TI_TOWN>Constança</TI_TOWN>
+				<TI_TEXT>
+					<P>Serviços de arquitectura e afins</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="RO">
+				<TI_CY>Germania</TI_CY>
+				<TI_TOWN>Constanţa</TI_TOWN>
+				<TI_TEXT>
+					<P>Servicii de arhitectură şi servicii conexe</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="SK">
+				<TI_CY>Nemecko</TI_CY>
+				<TI_TOWN>Kostnica</TI_TOWN>
+				<TI_TEXT>
+					<P>Architektonické a súvisiace služby</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="SL">
+				<TI_CY>Nemčija</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Arhitekturne storitve in z njimi povezane storitve</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="SV">
+				<TI_CY>Tyskland</TI_CY>
+				<TI_TOWN>Konstanz</TI_TOWN>
+				<TI_TEXT>
+					<P>Arkitekttjänster</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+		</ML_TITLES>
+		<ML_AA_NAMES>
+			<AA_NAME LG="DE">Vermögen und Bau Baden-Württemberg</AA_NAME>
+		</ML_AA_NAMES>
+	</TRANSLATION_SECTION>
+	<FORM_SECTION>
+		<F12_2014 CATEGORY="ORIGINAL" FORM="F12" LG="DE">
+			<LEGAL_BASIS VALUE="32014L0024"/>
+			<CONTRACTING_BODY>
+				<ADDRESS_CONTRACTING_BODY>
+					<OFFICIALNAME>Vermögen und Bau Baden-Württemberg</OFFICIALNAME>
+					<ADDRESS>Mainaustraße 211</ADDRESS>
+					<TOWN>Konstanz</TOWN>
+					<POSTAL_CODE>78464</POSTAL_CODE>
+					<COUNTRY VALUE="DE"/>
+					<E_MAIL>Vergabestelle.AmtKN@vbv.bwl.de</E_MAIL>
+					<FAX>+49 7531-8020-205</FAX>
+					<n2021:NUTS CODE="DE138"/>
+					<URL_GENERAL>www.vermoegenundbau-bw.de</URL_GENERAL>
+				</ADDRESS_CONTRACTING_BODY>
+				<DOCUMENT_FULL/>
+				<URL_DOCUMENT>https://vergabe.landbw.de/NetServer/PublicationControllerServlet?function=Detail&TWOID=54321-Tender-17d5b67aed3-3d75331ace24f93d</URL_DOCUMENT>
+				<ADDRESS_FURTHER_INFO_IDEM/>
+				<URL_PARTICIPATION>https://vergabe.landbw.de/</URL_PARTICIPATION>
+				<CA_TYPE VALUE="REGIONAL_AUTHORITY"/>
+				<CA_ACTIVITY VALUE="ECONOMIC_AND_FINANCIAL_AFFAIRS"/>
+			</CONTRACTING_BODY>
+			<OBJECT_CONTRACT>
+				<TITLE>
+					<P>Architektenleistungen nach Teil 3 Abschnitt 1 HOAI</P>
+				</TITLE>
+				<REFERENCE_NUMBER>21-49372</REFERENCE_NUMBER>
+				<CPV_MAIN>
+					<CPV_CODE CODE="71200000"/>
+				</CPV_MAIN>
+				<OBJECT_DESCR>
+					<SHORT_DESCR>
+						<P>An der Universität Konstanz soll ein zentraler Neubau errichtet werden.</P>
+						<P>Das Forum Konstanz ist eines von drei Schlüsselprojekten der Universität Konstanz in der Förderlinie "Exzellenz-Universitäten" der Exzellenzstrategie des Bundes und der Länder seit 2019 (nächste Zwischenevaluierung in 2025).</P>
+						<P>Mit dem Forum Konstanz wird die bauliche Umsetzung und langfristige Unterstützung der Gesamtstrategie "Universität Konstanz - creative.together", die Spitzenforschung und hervorragende Lehre durch interdisziplinäre Zusammenarbeit, kreative Freiräume und optimierte Rahmenbedingungen fördert, erfolgen.</P>
+						<P>Das Programm umfasst eine NF1-6 von ca. 4.167 qm.</P>
+						<P>Hierfür ist eine Kostenvorgabe in Höhe von ca. 48.905.330 Euro (netto) Kostengruppe 300 + 400 nach DIN 276-1:2018-12 inklusive Sonderkosten vorgesehen.</P>
+						<P>Das Wettbewerbsgebiet umfasst rd. 6.700 m².</P>
+					</SHORT_DESCR>
+					<NO_EU_PROGR_RELATED/>
+				</OBJECT_DESCR>
+			</OBJECT_CONTRACT>
+			<LEFTI>
+				<CRITERIA_SELECTION>
+					<P>1. PERSÖNLICHE LAGE DES BEWERBERS SOWIE AUFLAGEN HINSICHTLICH DER EINTRAGUNG IN EINEM BERUFS- ODER HANDELSREGISTER</P>
+					<P>- Im Falle einer Arbeitsgemeinschaft Angabe des bevollmächtigten Vertreters.</P>
+					<P>- Erklärung, ob und auf welche Art wirtschaftliche Verknüpfungen mit anderen Unternehmen bestehen.</P>
+					<P>- Erklärung, ob Ausschlussgründe nach § 123 oder § 124 GWB vorliegen.</P>
+					<P>Hinweise:</P>
+					<P>- Maßnahmen der Bewerberin oder des Bewerbers zur Selbstreinigung nach § 125 GWB sind als gesonderte Erklärung mit der Bewerbung einzureichen.</P>
+					<P>2. WIRTSCHAFTLICHE UND FINANZIELLE LEISTUNGSFÄHIGKEIT</P>
+					<P>- Erklärung, dass eine Berufshaftpflichtversicherung mit den gemäß Bewerbungsformular geforderten Deckungssummen vorliegt bzw. vor Vertragsschluss besteht.</P>
+					<P>Die Maximierung der Ersatzleistung pro Versicherungsjahr beträgt mindestens das zweifache der Deckungssumme.</P>
+					<P>3. TECHNISCHE LEISTUNGSFÄHIGKEIT</P>
+					<P>- Erklärung über die durchschnittliche Anzahl der Beschäftigten für entsprechende Dienstleistungen in den letzten drei Geschäftsjahren.</P>
+					<P>- Angabe des Auftragsanteils für den möglicherweise Unteraufträge erteilt werden.</P>
+					<P>- Liste der wesentlichen, in den letzten drei Jahren erbrachten Leistungen, mit Angabe der Bauwerkskosten, der Leistungszeit, des Auftraggebers und der bearbeiteten Leistungsphasen.</P>
+					<P>- Erklärung über die Gewährleistung des Datenaustauschs gemäß Bewerbungsformblatt.</P>
+					<P>- Präsentation von insgesamt 2 im Wesentlichen realisierten Referenzobjekten, deren Planungsanforderungen mit denen der zu vergebenden Planungsleistung vergleichbar sind.</P>
+					<P>Hinsichtlich der Vergleichbarkeit der Referenzobjekte sowie der Eignung im Hinblick auf die beschriebenen spezifischen Anforderungen werden die in der bereitgestellten Matrix aufgeführten Kriterien zur Wertung herangezogen.</P>
+					<P>Die Präsentation der Referenzobjekte soll einschließlich genauer Beschreibung, Fotos und Planverkleinerung, Angabe von Bauwerkskosten, Angabe von Auftraggebern, Leistungszeit und der bearbeiteten Leistungsphasen auf maximal 6 Seiten erfolgen und darf das Format A3 nicht überschreiten.</P>
+					<P>Hinweis:</P>
+					<P>Bei Arbeitsgemeinschaften genügt für jedes Mitglied die Vorlage der geforderten Referenzen für die jeweils ihn betreffende Leistung.</P>
+					<P>Die Arbeitsaufteilung zwischen den Mitgliedern ist schlüssig darzustellen.</P>
+					<P>Alle anderen Angaben, Erklärungen und Nachweise sind von allen Mitgliedern der Arbeitsgemeinschaft zu erbringen. Eine Mehrfachbewerbung bzw. -teilnahme führt zum Ausschluss.</P>
+					<P>Mehrfachbewerbungen bzw. -teilnahmen von Mitgliedern einer Arbeitsgemeinschaft können das Ausscheiden aller Mitglieder zur Folge haben.</P>
+					<P>Werden Unteraufträge erteilt und beruft sich die Bewerberin oder der Bewerber im Hinblick auf die erforderliche Leistungsfähigkeit nach § 45 und § 46 VgV auf die Kapazitäten des anderen Unternehmens, hat er oder sie nachzuweisen, dass ihr oder ihm die für den Auftrag erforderlichen Mittel tatsächlich zur Verfügung stehen und dass keine Ausschlussgründe im Hinblick auf dieses Unternehmen vorliegen (zum Beispiel durch eine entsprechende Verpflichtungserklärung der Unterauftragnehmerin oder des Unterauftragnehmers).</P>
+					<P>Die Leistungsfähigkeit der Unterauftragnehmerin oder des Unterauftragnehmers sind durch entsprechende Referenzen für die durch sie oder ihn zu erbringende Leistung nachzuweisen.</P>
+				</CRITERIA_SELECTION>
+				<PARTICULAR_PROFESSION>
+					<P>Teilnahmeberechtigt sind natürliche Personen, die gemäß Rechtsvorschrift ihres Heimatstaates am Tage der Bekanntmachung zur Führung der Berufsbezeichnung Architekt(-in) berechtigt sind. Weitere Anforderungen siehe Auslobung Teil A, Ziffer 1.6.</P>
+				</PARTICULAR_PROFESSION>
+			</LEFTI>
+			<PROCEDURE>
+				<PT_RESTRICTED/>
+				<NB_PARTICIPANTS>25</NB_PARTICIPANTS>
+				<CRITERIA_EVALUATION>
+					<P>Die Arbeiten werden nach den folgenden Kriterien bewertet:</P>
+					<P>- Städtebauliches und architektonisches Konzept,</P>
+					<P>- Funktion und Raumprogramm,</P>
+					<P>- Baukonstruktion und Gebäudetechnik,</P>
+					<P>- Bauplanungs- und Bauordnungsrecht</P>
+					<P>- Nachhaltigkeit und Energieeffizienz,</P>
+					<P>- Wirtschaftlichkeit</P>
+					<P>Details zu den einzelnen Kriterien sind der Auslobung zu entnehmen.</P>
+				</CRITERIA_EVALUATION>
+				<DATE_RECEIPT_TENDERS>2022-03-25</DATE_RECEIPT_TENDERS>
+				<TIME_RECEIPT_TENDERS>23:59</TIME_RECEIPT_TENDERS>
+				<DATE_DISPATCH_INVITATIONS>2022-04-20</DATE_DISPATCH_INVITATIONS>
+				<LANGUAGES>
+					<LANGUAGE VALUE="DE"/>
+				</LANGUAGES>
+				<PRIZE_AWARDED/>
+				<NUMBER_VALUE_PRIZE>
+					<P>Die Wettbewerbssumme für Preise und Anerkennungen ist auf der Basis des § 7 Absatz 2 RPW 2013, Anlage II RPW ermittelt und beträgt 325.000 Euro brutto.</P>
+					<P>Die Aufteilung ist wie folgt vorgesehen:</P>
+					<P>1. Preis: 105.000 €</P>
+					<P>2. Preis: 71.000 €</P>
+					<P>3. Preis: 50.000 €</P>
+					<P>4 Preis: 34.000 €</P>
+					<P>Anerkennungen insgesamt: 65.000 €</P>
+					<P>Die Umsatzsteuer ist in den genannten Beträgen enthalten.</P>
+					<P>Dem Preisgericht bleibt bei einstimmigem Beschluss eine andere Aufteilung der Wettbewerbssumme vorbehalten.</P>
+				</NUMBER_VALUE_PRIZE>
+				<FOLLOW_UP_CONTRACTS/>
+				<NO_DECISION_BINDING_CONTRACTING/>
+				<MEMBER_NAME>Prof. Jens Wittfoht, freier Architekt, Stuttgart (Vorsitz)</MEMBER_NAME>
+				<MEMBER_NAME>Prof. Hannelore Deubzer, Freie Architektin, München</MEMBER_NAME>
+				<MEMBER_NAME>Thomas Steimle, freier Architekt, Stuttgart</MEMBER_NAME>
+				<MEMBER_NAME>Karl Langensteiner-Schönborn, Baubürgermeister Stadt Konstanz</MEMBER_NAME>
+				<MEMBER_NAME>Thomas Steier, VB-BW Amt Konstanz</MEMBER_NAME>
+				<MEMBER_NAME>Julia Schilling, Ministerium für Finanzen BW</MEMBER_NAME>
+				<MEMBER_NAME>Prof. Kai Fischer, Ministerium für Finanzen BW</MEMBER_NAME>
+				<MEMBER_NAME>Volker Eisele, Ministerium für Wissenschaft, Forschung und Kunst BW</MEMBER_NAME>
+				<MEMBER_NAME>Prof. Katharina Holzinger, Rektorin Universität Konstanz</MEMBER_NAME>
+				<MEMBER_NAME>Torsten Wenisch, Ministerium für Finanzen BW</MEMBER_NAME>
+				<MEMBER_NAME>Tilo Prautzsch, Leiter Facility Management Universität Konstanz</MEMBER_NAME>
+			</PROCEDURE>
+			<COMPLEMENTARY_INFO>
+				<INFO_ADD>
+					<P>Die Teilnahmeanträge sind mit dem vom Auftraggeber vorgegebenen Bewerbungsformblatt (abrufbar auf der unter Ziffer I.3 aufgeführten Internetadresse) und den geforderten Erklärungen und Nachweisen zwingend innerhalb der Bewerbungsfrist in Textform über die Vergabeplattform einzureichen.</P>
+					<P>Bewerbungen in Papierform, per Telefon, Telefax oder E-Mail sind nicht zugelassen.</P>
+				</INFO_ADD>
+				<ADDRESS_REVIEW_BODY>
+					<OFFICIALNAME>Vergabekammer Baden-Württemberg im Regierungspräsidium Karlsruhe</OFFICIALNAME>
+					<ADDRESS>Durlacher Allee 100</ADDRESS>
+					<TOWN>Karlsruhe</TOWN>
+					<POSTAL_CODE>76137</POSTAL_CODE>
+					<COUNTRY VALUE="DE"/>
+					<PHONE>+49 721/926-8730</PHONE>
+					<FAX>+49 721/926-3985</FAX>
+					<URL>https://rp.baden-wuerttemberg.de</URL>
+				</ADDRESS_REVIEW_BODY>
+				<REVIEW_PROCEDURE>
+					<P>Genaue Angaben zu den Fristen für die Einlegung von Rechtsbehelfen:</P>
+					<P>Ein Antrag auf Einleitung eines Nachprüfungsverfahrens ist entsprechend § 160 Abs. 3 GWB unzulässig, soweit:</P>
+					<P>1. der Antragsteller den geltend gemachten Verstoß gegen Vergabevorschriften vor Einreichen des Nachprüfungsantrags erkannt und gegenüber dem Auftraggeber nicht innerhalb einer Frist von 10 Kalendertagen gerügt hat; der Ablauf der Frist nach § 134 Absatz 2 bleibt unberührt,</P>
+					<P>2. Verstöße gegen Vergabevorschriften, die aufgrund der Bekanntmachung erkennbar sind, nicht spätestens bis zum Ablauf der in der Bekanntmachung benannten Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,</P>
+					<P>3. Verstöße gegen Vergabevorschriften, die erst in den Vergabeunterlagen erkennbar sind, nicht spätestens bis zum Ablauf der Frist zur Bewerbung oder zur Angebotsabgabe gegenüber dem Auftraggeber gerügt werden,</P>
+					<P>4. mehr als 15 Kalendertage nach Eingang der Mitteilung des Auftraggebers, einer Rüge nicht abhelfen zu wollen, vergangen sind.</P>
+					<P>Satz 1 gilt nicht bei einem Antrag auf Feststellung der Unwirksamkeit des Vertrages nach § 135 Absatz 1 Nummer 2.</P>
+					<P>§ 134 Absatz 1 Satz 2 bleibt unberührt.</P>
+				</REVIEW_PROCEDURE>
+				<ADDRESS_REVIEW_INFO>
+					<OFFICIALNAME>Vermögen und Bau Baden-Württemberg Amt Konstanz</OFFICIALNAME>
+					<ADDRESS>Mainaustraße 211</ADDRESS>
+					<TOWN>Konstanz</TOWN>
+					<POSTAL_CODE>78464</POSTAL_CODE>
+					<COUNTRY VALUE="DE"/>
+					<E_MAIL>Vergabestelle.AmtKN@vbv.bwl.de</E_MAIL>
+					<FAX>+49 7531-8020-205</FAX>
+					<URL>www.vermoegenundbau-bw.de</URL>
+				</ADDRESS_REVIEW_INFO>
+				<DATE_DISPATCH_NOTICE>2022-02-23</DATE_DISPATCH_NOTICE>
+			</COMPLEMENTARY_INFO>
+		</F12_2014>
+	</FORM_SECTION>
+</TED_EXPORT>

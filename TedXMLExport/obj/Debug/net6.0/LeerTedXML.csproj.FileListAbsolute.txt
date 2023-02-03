@@ -1,0 +1,45 @@
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.exe
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.deps.json
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.runtimeconfig.json
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.dll
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.pdb
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.csproj.AssemblyReference.cache
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.AssemblyInfoInputs.cache
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.AssemblyInfo.cs
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.csproj.CoreCompileInputs.cache
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.dll
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\refint\LeerTedXML.dll
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.pdb
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.genruntimeconfig.cache
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\ref\LeerTedXML.dll
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.exe
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.deps.json
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.runtimeconfig.json
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.dll
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.pdb
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.csproj.AssemblyReference.cache
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.GeneratedMSBuildEditorConfig.editorconfig
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.AssemblyInfoInputs.cache
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.AssemblyInfo.cs
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.csproj.CoreCompileInputs.cache
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.dll
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\refint\LeerTedXML.dll
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.pdb
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.genruntimeconfig.cache
+H:\Mi unidad\CONCURSOS\AUTOMATIZACION TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\ref\LeerTedXML.dll
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.exe
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.deps.json
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.runtimeconfig.json
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.dll
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\bin\Debug\net6.0\LeerTedXML.pdb
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.csproj.AssemblyReference.cache
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.AssemblyInfoInputs.cache
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.AssemblyInfo.cs
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.csproj.CoreCompileInputs.cache
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.dll
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\refint\LeerTedXML.dll
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.pdb
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\LeerTedXML.genruntimeconfig.cache
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\obj\Debug\net6.0\ref\LeerTedXML.dll

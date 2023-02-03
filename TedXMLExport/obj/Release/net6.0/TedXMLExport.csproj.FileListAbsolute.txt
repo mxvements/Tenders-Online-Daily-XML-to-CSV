@@ -1,0 +1,15 @@
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\bin\Release\net6.0\TedXMLExport.exe
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\bin\Release\net6.0\TedXMLExport.deps.json
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\bin\Release\net6.0\TedXMLExport.runtimeconfig.json
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\bin\Release\net6.0\TedXMLExport.dll
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\bin\Release\net6.0\TedXMLExport.pdb
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\obj\Release\net6.0\TedXMLExport.csproj.AssemblyReference.cache
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\obj\Release\net6.0\TedXMLExport.GeneratedMSBuildEditorConfig.editorconfig
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\obj\Release\net6.0\TedXMLExport.AssemblyInfoInputs.cache
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\obj\Release\net6.0\TedXMLExport.AssemblyInfo.cs
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\obj\Release\net6.0\TedXMLExport.csproj.CoreCompileInputs.cache
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\obj\Release\net6.0\TedXMLExport.dll
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\obj\Release\net6.0\refint\TedXMLExport.dll
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\obj\Release\net6.0\TedXMLExport.pdb
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\obj\Release\net6.0\TedXMLExport.genruntimeconfig.cache
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\obj\Release\net6.0\ref\TedXMLExport.dll

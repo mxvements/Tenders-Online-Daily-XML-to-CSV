@@ -1,0 +1,5 @@
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\publish\LeerTedXML.exe
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\publish\LeerTedXML.dll
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\publish\LeerTedXML.deps.json
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\publish\LeerTedXML.runtimeconfig.json
+G:\Mi unidad\CONCURSOS\AUTOMATIZACION_TED\LeerTedXML\LeerTedXML\publish\LeerTedXML.pdb

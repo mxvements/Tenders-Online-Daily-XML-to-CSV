@@ -1,0 +1,313 @@
+﻿
+<TED_EXPORT xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://publications.europa.eu/resource/schema/ted/R2.0.9/publication" xmlns:n2021="http://publications.europa.eu/resource/schema/ted/2021/nuts" xsi:schemaLocation="http://publications.europa.eu/resource/schema/ted/R2.0.9/publication TED_EXPORT.xsd" VERSION="R2.0.9.S05.E01" DOC_ID="011975-2023" EDITION="2023006">
+	<TECHNICAL_SECTION>
+		<RECEPTION_ID>23-006166-001</RECEPTION_ID>
+		<DELETION_DATE>20230414</DELETION_DATE>
+		<FORM_LG_LIST>ET </FORM_LG_LIST>
+		<COMMENTS>From Convertor</COMMENTS>
+	</TECHNICAL_SECTION>
+	<LINKS_SECTION>
+		<XML_SCHEMA_DEFINITION_LINK xlink:type="simple" xlink:href="https://ted.europa.eu" xlink:title="TED WEBSITE"/>
+		<OFFICIAL_FORMS_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+		<FORMS_LABELS_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+		<ORIGINAL_CPV_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+		<ORIGINAL_NUTS_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+	</LINKS_SECTION>
+	<CODED_DATA_SECTION>
+		<REF_OJS>
+			<COLL_OJ>S</COLL_OJ>
+			<NO_OJ>6</NO_OJ>
+			<DATE_PUB>20230109</DATE_PUB>
+		</REF_OJS>
+		<NOTICE_DATA>
+			<NO_DOC_OJS>2023/S 006-011975</NO_DOC_OJS>
+			<URI_LIST>
+				<URI_DOC LG="ET">https://ted.europa.eu/udl?uri=TED:NOTICE:011975-2023:TEXT:ET:HTML</URI_DOC>
+			</URI_LIST>
+			<LG_ORIG>ET</LG_ORIG>
+			<ISO_COUNTRY VALUE="EE"/>
+			<IA_URL_GENERAL>http://www.rmk.ee</IA_URL_GENERAL>
+			<ORIGINAL_CPV CODE="71240000">Architectural, engineering and planning services</ORIGINAL_CPV>
+			<n2021:PERFORMANCE_NUTS CODE="EE">Eesti</n2021:PERFORMANCE_NUTS>
+			<n2021:CA_CE_NUTS CODE="EE">Eesti</n2021:CA_CE_NUTS>
+			<REF_NOTICE>
+				<NO_DOC_OJS>2022/S 175-495714</NO_DOC_OJS>
+			</REF_NOTICE>
+		</NOTICE_DATA>
+		<CODIF_DATA>
+			<DS_DATE_DISPATCH>20230104</DS_DATE_DISPATCH>
+			<AA_AUTHORITY_TYPE CODE="N">National or federal Agency/Office</AA_AUTHORITY_TYPE>
+			<TD_DOCUMENT_TYPE CODE="7">Contract award notice</TD_DOCUMENT_TYPE>
+			<NC_CONTRACT_NATURE CODE="4">Services</NC_CONTRACT_NATURE>
+			<PR_PROC CODE="1">Open procedure</PR_PROC>
+			<RP_REGULATION CODE="5">European Union, with participation by GPA countries</RP_REGULATION>
+			<TY_TYPE_BID CODE="9">Not applicable</TY_TYPE_BID>
+			<AC_AWARD_CRIT CODE="1">Lowest price</AC_AWARD_CRIT>
+			<MA_MAIN_ACTIVITIES CODE="8">Other</MA_MAIN_ACTIVITIES>
+			<HEADING>01C03</HEADING>
+			<INITIATOR>01</INITIATOR>
+		</CODIF_DATA>
+	</CODED_DATA_SECTION>
+	<TRANSLATION_SECTION>
+		<ML_TITLES>
+			<ML_TI_DOC LG="BG">
+				<TI_CY>Ecтoния</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Архитектурни и инженерни услуги по изготвяне на планове и чертежи</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="CS">
+				<TI_CY>Estonsko</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Architektonické, technické a plánovací služby</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="DA">
+				<TI_CY>Estland</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Arkitekt-, ingeniør- og planlægningsvirksomhed</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="DE">
+				<TI_CY>Estland</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Dienstleistungen von Architektur- und Ingenieurbüros sowie planungsbezogene Leistungen</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="EL">
+				<TI_CY>Εσθονία</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Υπηρεσίες αρχιτέκτονα, μηχανικού και τεχνικού γραφείου</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="EN">
+				<TI_CY>Estonia</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Architectural, engineering and planning services</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="ES">
+				<TI_CY>Estonia</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Servicios de arquitectura, ingeniería y planificación</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="ET">
+				<TI_CY>Eesti</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Arhitektuuri-, insener-tehnilise projekteerimise ja planeerimisteenused</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="FI">
+				<TI_CY>Viro</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Arkkitehti-, insinööri- ja suunnittelupalvelut</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="FR">
+				<TI_CY>Estonie</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Services d'architecture, d'ingénierie et de planification</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="GA">
+				<TI_CY>Eastóin, an</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Architectural, engineering and planning services</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="HR">
+				<TI_CY>Estonija</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Arhitektonske usluge, tehničke usluge i usluge planiranja</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="HU">
+				<TI_CY>Észtország</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Építészeti, mérnöki és tervezési szolgáltatások</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="IT">
+				<TI_CY>Estonia</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Servizi architettonici, di ingegneria e pianificazione</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="LT">
+				<TI_CY>Estija</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Architektūros, inžinerijos ir planavimo paslaugos</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="LV">
+				<TI_CY>Igaunija</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Arhitektūras, inženiertehniskie un plānošanas pakalpojumi</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="MT">
+				<TI_CY>l-Estonja</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Servizzi dwar l-arkitettura, l-inġinerija u l-ippjanar</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="NL">
+				<TI_CY>Estland</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Dienstverlening op het gebied van architectuur, bouwkunde en planning</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="PL">
+				<TI_CY>Estonia</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Usługi architektoniczne, inżynieryjne i planowania</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="PT">
+				<TI_CY>Estónia</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Serviços de arquitectura, engenharia e planeamento</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="RO">
+				<TI_CY>Estonia</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Servicii de arhitectură, de inginerie şi de planificare</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="SK">
+				<TI_CY>Estónsko</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Architektonické, inžinierske a plánovacie služby</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="SL">
+				<TI_CY>Estonija</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Arhitekturne, inženirske in projektantske storitve</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="SV">
+				<TI_CY>Estland</TI_CY>
+				<TI_TOWN>Haljala</TI_TOWN>
+				<TI_TEXT>
+					<P>Arkitekt-, ingenjörs- och planeringstjänster</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+		</ML_TITLES>
+		<ML_AA_NAMES>
+			<AA_NAME LG="ET">Riigimetsa Majandamise Keskus</AA_NAME>
+		</ML_AA_NAMES>
+	</TRANSLATION_SECTION>
+	<FORM_SECTION>
+		<NOTICE_UUID>7ab00ef5-55c9-437f-89eb-069a249b40da</NOTICE_UUID>
+		<F03_2014 CATEGORY="ORIGINAL" FORM="F03" LG="ET">
+			<LEGAL_BASIS VALUE="32014L0024"/>
+			<CONTRACTING_BODY>
+				<ADDRESS_CONTRACTING_BODY>
+					<OFFICIALNAME>Riigimetsa Majandamise Keskus</OFFICIALNAME>
+					<NATIONALID>70004459</NATIONALID>
+					<ADDRESS>Mõisa</ADDRESS>
+					<TOWN> Haljala vald</TOWN>
+					<POSTAL_CODE>45403</POSTAL_CODE>
+					<COUNTRY VALUE="EE"/>
+					<CONTACT_POINT>Katrin Keert</CONTACT_POINT>
+					<PHONE>+372 53585358</PHONE>
+					<E_MAIL>rmk@rmk.ee</E_MAIL>
+					<n2021:NUTS CODE="EE"/>
+					<URL_GENERAL>http://www.rmk.ee</URL_GENERAL>
+				</ADDRESS_CONTRACTING_BODY>
+				<CA_TYPE VALUE="NATIONAL_AGENCY"/>
+				<CA_ACTIVITY_OTHER>Metsamajandus</CA_ACTIVITY_OTHER>
+			</CONTRACTING_BODY>
+			<OBJECT_CONTRACT>
+				<TITLE>
+					<P>Sagadi hotelli rekonstrueerimise projekteerimine</P>
+				</TITLE>
+				<REFERENCE_NUMBER>253947</REFERENCE_NUMBER>
+				<CPV_MAIN>
+					<CPV_CODE CODE="71240000"/>
+				</CPV_MAIN>
+				<TYPE_CONTRACT CTYPE="SERVICES"/>
+				<SHORT_DESCR>
+					<P>Tellitakse projekteerimistööde ja vajalike uurimistööde tegemine ning nende töödega seotud asjaajamine aadressil Mõisa, Sagadi küla, Haljala vald, Lääne-Virumaa (katastriüksus 88702:001:0259, kinnisvarakood KV5040) RMK Sagadi hotelli rekonstrueerimise projekteerimine.</P>
+				</SHORT_DESCR>
+				<NO_LOT_DIVISION/>
+				<OBJECT_DESCR ITEM="1">
+					<CPV_ADDITIONAL>
+						<CPV_CODE CODE="71240000"/>
+					</CPV_ADDITIONAL>
+					<n2021:NUTS CODE="EE"/>
+					<SHORT_DESCR>
+						<P>Tellitakse projekteerimistööde ja vajalike uurimistööde tegemine ning nende töödega seotud asjaajamine aadressil Mõisa, Sagadi küla, Haljala vald, Lääne-Virumaa (katastriüksus 88702:001:0259, kinnisvarakood KV5040) RMK Sagadi hotelli rekonstrueerimise projekteerimine.</P>
+					</SHORT_DESCR>
+					<AC>
+						<AC_PRICE/>
+					</AC>
+					<NO_OPTIONS/>
+					<NO_EU_PROGR_RELATED/>
+				</OBJECT_DESCR>
+			</OBJECT_CONTRACT>
+			<PROCEDURE>
+				<PT_OPEN/>
+				<CONTRACT_COVERED_GPA/>
+				<NOTICE_NUMBER_OJ>2022/S 175-495714</NOTICE_NUMBER_OJ>
+			</PROCEDURE>
+			<AWARD_CONTRACT ITEM="1">
+				<NO_AWARDED_CONTRACT>
+					<PROCUREMENT_DISCONTINUED/>
+				</NO_AWARDED_CONTRACT>
+			</AWARD_CONTRACT>
+			<COMPLEMENTARY_INFO>
+				<INFO_ADD>
+					<P>Hange ei ole osadeks jaotatud, kuna hankija ei pea seda, arvestades hanke sisu, mahtu ja eeldatavat maksumust, põhjendatuks ega otstarbekaks.</P>
+				</INFO_ADD>
+				<ADDRESS_REVIEW_BODY>
+					<OFFICIALNAME>Riigihangete vaidlustuskomisjon</OFFICIALNAME>
+					<ADDRESS>Endla 13/Lõkke 5</ADDRESS>
+					<TOWN>Tallinn</TOWN>
+					<POSTAL_CODE>10122</POSTAL_CODE>
+					<COUNTRY VALUE="EE"/>
+					<PHONE>+372 6113713</PHONE>
+					<E_MAIL>vako@fin.ee</E_MAIL>
+					<URL>http://www.fin.ee/riigihangete-poliitika</URL>
+				</ADDRESS_REVIEW_BODY>
+				<ADDRESS_REVIEW_INFO>
+					<OFFICIALNAME>Riigihangete vaidlustuskomisjon</OFFICIALNAME>
+					<ADDRESS>Endla 13/Lõkke 5</ADDRESS>
+					<TOWN>Tallinn</TOWN>
+					<POSTAL_CODE>10122</POSTAL_CODE>
+					<COUNTRY VALUE="EE"/>
+					<PHONE>+372 6113713</PHONE>
+					<E_MAIL>vako@fin.ee</E_MAIL>
+					<URL>http://www.fin.ee/riigihangete-poliitika</URL>
+				</ADDRESS_REVIEW_INFO>
+				<DATE_DISPATCH_NOTICE>2023-01-04</DATE_DISPATCH_NOTICE>
+			</COMPLEMENTARY_INFO>
+		</F03_2014>
+	</FORM_SECTION>
+</TED_EXPORT>

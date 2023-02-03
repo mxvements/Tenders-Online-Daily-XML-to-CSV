@@ -1,0 +1,5 @@
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\bin\Publish\TedXMLExport.exe
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\bin\Publish\TedXMLExport.dll
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\bin\Publish\TedXMLExport.deps.json
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\bin\Publish\TedXMLExport.runtimeconfig.json
+G:\Unidades compartidas\P10380 I+D\P10380 I+D Tenders Online Daily\dev\TendersOnlineDaily\TedXMLExport\bin\Publish\TedXMLExport.pdb

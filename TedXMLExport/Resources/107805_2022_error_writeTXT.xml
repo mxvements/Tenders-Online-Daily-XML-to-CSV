@@ -1,0 +1,651 @@
+﻿<TED_EXPORT xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://publications.europa.eu/resource/schema/ted/R2.0.9/publication" xmlns:n2021="http://publications.europa.eu/resource/schema/ted/2021/nuts" xsi:schemaLocation="http://publications.europa.eu/resource/schema/ted/R2.0.9/publication TED_EXPORT.xsd" VERSION="R2.0.9.S05.E01" DOC_ID="107805-2022" EDITION="2022041">
+	<TECHNICAL_SECTION>
+		<RECEPTION_ID>22-104447-001</RECEPTION_ID>
+		<DELETION_DATE>20220414</DELETION_DATE>
+		<FORM_LG_LIST>FR DE </FORM_LG_LIST>
+		<COMMENTS>From Convertor</COMMENTS>
+	</TECHNICAL_SECTION>
+	<LINKS_SECTION>
+		<XML_SCHEMA_DEFINITION_LINK xlink:type="simple" xlink:href="https://ted.europa.eu" xlink:title="TED WEBSITE"/>
+		<OFFICIAL_FORMS_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+		<FORMS_LABELS_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+		<ORIGINAL_CPV_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+		<ORIGINAL_NUTS_LINK xlink:type="simple" xlink:href="https://ted.europa.eu"/>
+	</LINKS_SECTION>
+	<CODED_DATA_SECTION>
+		<REF_OJS>
+			<COLL_OJ>S</COLL_OJ>
+			<NO_OJ>41</NO_OJ>
+			<DATE_PUB>20220228</DATE_PUB>
+		</REF_OJS>
+		<NOTICE_DATA>
+			<NO_DOC_OJS>2022/S 041-107805</NO_DOC_OJS>
+			<URI_LIST>
+				<URI_DOC LG="FR">https://ted.europa.eu/udl?uri=TED:NOTICE:107805-2022:TEXT:FR:HTML</URI_DOC>
+				<URI_DOC LG="DE">https://ted.europa.eu/udl?uri=TED:NOTICE:107805-2022:TEXT:DE:HTML</URI_DOC>
+			</URI_LIST>
+			<LG_ORIG>FR</LG_ORIG>
+			<LG_ORIG>DE</LG_ORIG>
+			<ISO_COUNTRY VALUE="CH"/>
+			<IA_URL_GENERAL>https://www.simap.ch</IA_URL_GENERAL>
+			<IA_URL_ETENDERING>http://www.simap.ch/shabforms/servlet/Search?NOTICE_NR=1245581</IA_URL_ETENDERING>
+			<ORIGINAL_CPV CODE="71300000">Engineering services</ORIGINAL_CPV>
+			<n2021:PERFORMANCE_NUTS CODE="CH0">Schweiz / Suisse / Svizzera</n2021:PERFORMANCE_NUTS>
+			<n2021:CA_CE_NUTS CODE="CH0">Schweiz / Suisse / Svizzera</n2021:CA_CE_NUTS>
+		</NOTICE_DATA>
+		<CODIF_DATA>
+			<DS_DATE_DISPATCH>20220223</DS_DATE_DISPATCH>
+			<DT_DATE_FOR_SUBMISSION>20220414</DT_DATE_FOR_SUBMISSION>
+			<AA_AUTHORITY_TYPE CODE="1">Ministry or any other national or federal authority</AA_AUTHORITY_TYPE>
+			<TD_DOCUMENT_TYPE CODE="3">Contract notice</TD_DOCUMENT_TYPE>
+			<NC_CONTRACT_NATURE CODE="4">Services</NC_CONTRACT_NATURE>
+			<PR_PROC CODE="1">Open procedure</PR_PROC>
+			<RP_REGULATION CODE="7">GPA</RP_REGULATION>
+			<TY_TYPE_BID CODE="1">Submission for all lots</TY_TYPE_BID>
+			<AC_AWARD_CRIT CODE="2">The most economic tender</AC_AWARD_CRIT>
+			<MA_MAIN_ACTIVITIES CODE="8">Other</MA_MAIN_ACTIVITIES>
+			<HEADING>04C02</HEADING>
+			<INITIATOR>04</INITIATOR>
+		</CODIF_DATA>
+	</CODED_DATA_SECTION>
+	<TRANSLATION_SECTION>
+		<ML_TITLES>
+			<ML_TI_DOC LG="FR">
+				<TI_CY>Suisse</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Services d'ingénierie</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="DE">
+				<TI_CY>die Schweiz</TI_CY>
+				<TI_TOWN>Winterthur</TI_TOWN>
+				<TI_TEXT>
+					<P>Dienstleistungen von Ingenieurbüros</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="BG">
+				<TI_CY>Швейцария</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Инженерни услуги в строителството</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="CS">
+				<TI_CY>Švýcarsko</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Technicko-inženýrské služby</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="DA">
+				<TI_CY>Schweiz</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Ingeniørvirksomhed</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="EL">
+				<TI_CY>Ελβετία</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Υπηρεσίες μηχανικού</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="EN">
+				<TI_CY>Switzerland</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Engineering services</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="ES">
+				<TI_CY>Suiza</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Servicios de ingeniería</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="ET">
+				<TI_CY>Šveits</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Insener-tehnilised teenused</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="FI">
+				<TI_CY>Sveitsi</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Insinööripalvelut</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="GA">
+				<TI_CY>Eilvéis, an</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Engineering services</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="HR">
+				<TI_CY>Švicarska</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Tehničke usluge</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="HU">
+				<TI_CY>Svájc</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Mérnöki szolgáltatások</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="IT">
+				<TI_CY>Svizzera</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Servizi di ingegneria</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="LT">
+				<TI_CY>Šveicarija</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Inžinerijos paslaugos</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="LV">
+				<TI_CY>Šveice</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Inženiertehniskie pakalpojumi</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="MT">
+				<TI_CY>l-Isvizzera</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Servizzi ta' l-inġinerija</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="NL">
+				<TI_CY>Zwitserland</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Dienstverlening door ingenieurs</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="PL">
+				<TI_CY>Szwajcaria</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Usługi inżynieryjne</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="PT">
+				<TI_CY>Suíça</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Serviços de engenharia</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="RO">
+				<TI_CY>Elveţia</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Servicii de inginerie</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="SK">
+				<TI_CY>Švajčiarsko</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Inžinierske služby</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="SL">
+				<TI_CY>Švica</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Inženirske storitve</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+			<ML_TI_DOC LG="SV">
+				<TI_CY>Schweiz</TI_CY>
+				<TI_TOWN>Winterthour</TI_TOWN>
+				<TI_TEXT>
+					<P>Ingenjörstjänster</P>
+				</TI_TEXT>
+			</ML_TI_DOC>
+		</ML_TITLES>
+		<ML_AA_NAMES>
+			<AA_NAME LG="FR">Office fédéral des routes (OFROU), Division Infrastructure routière Est, Filiale de Winterthour</AA_NAME>
+			<AA_NAME LG="DE">Bundesamt für Strassen ASTRA, Abteilung Strasseninfrastruktur Ost, Filiale Winterthur</AA_NAME>
+		</ML_AA_NAMES>
+	</TRANSLATION_SECTION>
+	<FORM_SECTION>
+		<F02_2014 CATEGORY="ORIGINAL" FORM="F02" LG="FR">
+			<LEGAL_BASIS VALUE="32014L0024"/>
+			<CONTRACTING_BODY>
+				<ADDRESS_CONTRACTING_BODY>
+					<OFFICIALNAME>Office fédéral des routes (OFROU), Division Infrastructure routière Est, Filiale de Winterthour</OFFICIALNAME>
+					<ADDRESS>Grüzefeldstrasse 41</ADDRESS>
+					<TOWN>Winterthour</TOWN>
+					<POSTAL_CODE>8404</POSTAL_CODE>
+					<COUNTRY VALUE="CH"/>
+					<CONTACT_POINT>Offre: 080418, N13-28 UEM, auteur du projet Construction jonction de Buchs, carrefour de la Langäuli</CONTACT_POINT>
+					<E_MAIL>beschaffung.winterthur@astra.admin.ch</E_MAIL>
+					<n2021:NUTS CODE="CH0"/>
+					<URL_GENERAL>https://www.simap.ch</URL_GENERAL>
+					<URL_BUYER>www.astra.admin.ch</URL_BUYER>
+				</ADDRESS_CONTRACTING_BODY>
+				<DOCUMENT_RESTRICTED/>
+				<URL_DOCUMENT>http://www.simap.ch/shabforms/servlet/Search?NOTICE_NR=1245581</URL_DOCUMENT>
+				<ADDRESS_FURTHER_INFO_IDEM/>
+				<ADDRESS_PARTICIPATION>
+					<OFFICIALNAME>Office fédéral des routes (OFROU), Division Infrastructure routière Est, Filiale de Winterthour</OFFICIALNAME>
+					<ADDRESS>Grüzefeldstrasse 41</ADDRESS>
+					<TOWN>Winterthour</TOWN>
+					<POSTAL_CODE>8404</POSTAL_CODE>
+					<COUNTRY VALUE="CH"/>
+					<CONTACT_POINT>Offre: 080418, N13-28 UEM, auteur du projet Construction jonction de Buchs, carrefour de la Langäuli</CONTACT_POINT>
+					<E_MAIL>beschaffung.winterthur@astra.admin.ch</E_MAIL>
+					<n2021:NUTS CODE="CH0"/>
+					<URL_GENERAL>https://www.simap.ch</URL_GENERAL>
+				</ADDRESS_PARTICIPATION>
+				<CA_TYPE VALUE="MINISTRY"/>
+				<CA_ACTIVITY_OTHER>Ausbau + Unterhalt Autobahn</CA_ACTIVITY_OTHER>
+			</CONTRACTING_BODY>
+			<OBJECT_CONTRACT>
+				<TITLE>
+					<P>080418, N13-28 UEM, auteur du projet Construction jonction de Buchs, carrefour de la Langäulistrasse</P>
+				</TITLE>
+				<CPV_MAIN>
+					<CPV_CODE CODE="71300000"/>
+				</CPV_MAIN>
+				<TYPE_CONTRACT CTYPE="SERVICES"/>
+				<SHORT_DESCR>
+					<P>La jonction de Buchs est aujourd’hui en grande partie désenchevêtrée et il n’existe que peu de situations de priorité avec des restrictions de performance. Néanmoins, deux accès au giratoire sont déjà ou seront surchargés à l’avenir. En outre, le carrefour de la Langäulistrasse et de la jonction de Buchs pose des problèmes de compréhension, est générateur d’accidents et présente des courbes tractées insuffisantes pour les virages.</P>
+					<P>Dans le cadre du EK, il a été décidé de réaménager le carrefour de la Langäulistrasse. Le réaménagement comprend la création d’un carrefour géré par des feux de signalisation avec déplacement du pont de la Langäulistrasse, d’un ouvrage de passage inférieur existant et d’un déshuileur existant. D’autres défis sont constitués par la topographie et les installations existantes. Dans le cadre de cet appel d’offres, le projet proposé dans le EK doit être vérifié et retravaillé.</P>
+				</SHORT_DESCR>
+				<NO_LOT_DIVISION/>
+				<OBJECT_DESCR ITEM="1">
+					<n2021:NUTS CODE="CH0"/>
+					<MAIN_SITE>
+						<P>Bureau du soumissionnaire, chantier et filiale Infrastructure de l’OFROU de Winterthour, centrale à Ittigen (réunions).</P>
+					</MAIN_SITE>
+					<SHORT_DESCR>
+						<P>La jonction de Buchs est aujourd’hui en grande partie désenchevêtrée et il n’existe que peu de situations de priorité avec des restrictions de performance. Néanmoins, deux accès au giratoire sont déjà ou seront surchargés à l’avenir. En outre, le carrefour de la Langäulistrasse et de la jonction de Buchs pose des problèmes de compréhension, est générateur d’accidents et présente des courbes tractées insuffisantes pour les virages.</P>
+						<P>Dans le cadre du EK, il a été décidé de réaménager le carrefour de la Langäulistrasse. Le réaménagement comprend la création d’un carrefour géré par des feux de signalisation avec déplacement du pont de la Langäulistrasse, d’un ouvrage de passage inférieur existant et d’un déshuileur existant. D’autres défis sont constitués par la topographie et les installations existantes. Dans le cadre de cet appel d’offres, le projet proposé dans le EK doit être vérifié et retravaillé.</P>
+					</SHORT_DESCR>
+					<AC>
+						<AC_COST>
+							<AC_CRITERION>Les critères d’adjudication suivants doivent être joints au dossier d’offre (prédéfini):</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>C1: PRIX</AC_CRITERION>
+							<AC_WEIGHTING>50%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>(évaluation conformément aux heures prescrites pour la comparabilité des offres)</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>C2: QUALIFICATION DU SOUMISSIONNAIRE</AC_CRITERION>
+							<AC_WEIGHTING>20%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>Qualification de la personne clé face aux exigences du projet</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>avec la sous-division suivante:</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>- Chef de projet</AC_CRITERION>
+							<AC_WEIGHTING>15%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>- Chef de projet suppléant</AC_CRITERION>
+							<AC_WEIGHTING>5%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>Pour les personnes clés, il convient de fournir 1 projet de référence concernant des travaux terminés à un poste équivalent ou à un poste de suppléant, présentant une complexité comparable et relevant</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>C3: QUALITÉ DE L’OFFRE</AC_CRITERION>
+							<AC_WEIGHTING>30%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>avec la sous-division suivante:</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>- Analyse des tâches et analyse des risques</AC_CRITERION>
+							<AC_WEIGHTING>10%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>- Proposition d’approche avec concept de gestion de la qualité</AC_CRITERION>
+							<AC_WEIGHTING>15%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>- Plausibilité de l’offre</AC_CRITERION>
+							<AC_WEIGHTING>5%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>Évaluation du prix</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>La note maximale (5) est attribuée à l’offre révisée au prix le plus bas. Les offres, dont le prix est supérieur de 100 % ou plus à celui de l’offre la plus basse obtiennent la note 0. Entre deux, l’é</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>Notation des autres critères de qualité</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>L’évaluation est toujours indiquée au moyen des notes 0 à 5:</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>0 = évaluation impossible; aucune information</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>1 = critère très mal rempli; informations insuffisantes et incomplètes</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+					</AC>
+					<DATE_START>2022-07-01</DATE_START>
+					<DATE_END>2027-12-31</DATE_END>
+					<NO_RENEWAL/>
+					<NO_ACCEPTED_VARIANTS/>
+					<NO_OPTIONS/>
+					<NO_EU_PROGR_RELATED/>
+				</OBJECT_DESCR>
+			</OBJECT_CONTRACT>
+			<LEFTI>
+				<ECONOMIC_FINANCIAL_INFO>
+					<P>Les justificatifs / attestations suivants doivent être joints au dossier d’offre (prédéfini), faute de quoi celle-ci ne pourra pas être prise en considération </P>
+					<P>C1 Référence de l’entreprise: </P>
+					<P>1 projet de référence concernant des travaux terminés, présentant une complexité comparable et relevant de la même spécialité. Si toutes les phases de cette référence ne sont pas terminées, la preuve peut être apportée par au max. deux références partielles – une pour l’élaboration du projet et une pour la soumission et la réalisation (phases SIA 41-53).</P>
+					<P>C2 Preuve de l’aptitude économique / financière: </P>
+					<P>chiffre d’affaires annuel du soumissionnaire > deux fois le chiffre d’affaires annuel du mandat. </P>
+					<P>C3 Références des personnes clés: </P>
+					<P>1 projet de référence concernant des travaux terminés au même poste ou à un poste de suppléant présentant une complexité comparable et relevant de la même spécialité. Si toutes les phases de cette référence ne sont pas terminées, la preuve peut être apportée par au max. deux références partielles – une pour l’élaboration du projet et une pour la soumission et la réalisation (phases SIA 41-53).</P>
+					<P>Le curriculum vitæ du chef de projet doit en plus être remis.</P>
+					<P>C4 Preuve de la disponibilité: </P>
+					<P>Pour les personnes clés : preuve que la disponibilité est supérieure à la disponibilité requise au cours de ces deux prochaines années. Énumération et présentation détaillées de la charge de travail (en temps) dans le cadre des autres projets. </P>
+					<P>Les personnes clés sont les suivantes: </P>
+					<P>- Chef de projet</P>
+					<P>- Chef de projet suppléant</P>
+					<P>C5 Justificatif concernant les sous-traitants: </P>
+					<P>Au maximum 50% de la prestation peut être réalisée par des sous-traitants. </P>
+					<P>Les références des sous-traitants ne sont pas autorisées pour prouver l’aptitude.</P>
+				</ECONOMIC_FINANCIAL_INFO>
+				<TECHNICAL_PROFESSIONAL_INFO>
+					<P>Les entreprises économiquement et techniquement aptes à assumer le mandat, et pouvant apporter la preuve de leur aptitude sont invitées à déposer une offre en CHF.</P>
+					<P>C1: Aptitude technique / référence de l’entreprise</P>
+					<P>C2: Aptitude économique / financière</P>
+					<P>C3: Référence de la personne clé</P>
+					<P>C4: Preuve de disponibilité</P>
+					<P>C5: Part représentée par les prestations des sous-traitants</P>
+				</TECHNICAL_PROFESSIONAL_INFO>
+			</LEFTI>
+			<PROCEDURE>
+				<PT_OPEN/>
+				<CONTRACT_COVERED_GPA/>
+				<DATE_RECEIPT_TENDERS>2022-04-14</DATE_RECEIPT_TENDERS>
+				<LANGUAGES>
+					<LANGUAGE VALUE="DE"/>
+				</LANGUAGES>
+				<OPENING_CONDITION>
+					<DATE_OPENING_TENDERS>2022-04-22</DATE_OPENING_TENDERS>
+					<TIME_OPENING_TENDERS>23:59</TIME_OPENING_TENDERS>
+					<INFO_ADD>
+						<P>La date de l’ouverture des offres n’est pas encore fixée. L’ouverture des offres n’est pas publique.</P>
+					</INFO_ADD>
+				</OPENING_CONDITION>
+			</PROCEDURE>
+			<COMPLEMENTARY_INFO>
+				<NO_RECURRENT_PROCUREMENT/>
+				<INFO_ADD>
+					<P>Des offres partielles ne sont pas admises.</P>
+					<P>Conditions pour les soumissionnaires provenant d'États non membres de l'Accord sur les marchés publics de l'OMC:</P>
+					<P>Aucune.</P>
+					<P>Conditions générales: Selon le contrat prévu.</P>
+					<P>Négociations: Aucune.</P>
+					<P>Exigences fondamentales:L'adjudicateur adjuge ce marché uniquement aux soumissionnaires qui respectent les conditions de participation fixées dans le dossier d'appel d'offres et dans la législation. Sont notamment concernés le respect des dispositions relatives à la protection des travailleurs, des conditions de travail, de l’égalité salariale entre femmes et hommes et du droit de l’environnement, et un comportement conforme aux règles de la concurrence et exempt de corruption.</P>
+					<P>Autres indications: 1. Le marché sera octroyé sous réserve de la maturité du projet et de la disponibilité des crédits. 2. L’élaboration des offres n’est pas rémunérée. Les dossiers correspondants ne sont pas restitués. 3. Le dossier d'appel d'offres est disponible en Indiquez la/les langue/s. En cas de divergences entre les versions, la version allemande fait foi. 4. La langue du projet est l’allemand. Toutes les personnes clés doivent donc avoir au moins le niveau C1 (selon le CECRL). Le pouvoir adjudicateur se réserve le droit de réaliser des entretiens ou d’exiger des certificats.</P>
+					<P>Indication des voies de recours: Conformément à l'art. 56, al. 1, de la loi fédérale sur les marchés publics (LMP), la présente décision peut être attaquée, dans un délai de 20 jours à compter de sa notification, auprès du Tribunal administratif fédéral, case postale, 9023 Saint-Gall. Présenté en deux exemplaires, le mémoire de recours doit indiquer les conclusions, les motifs et les moyens de preuve et porter la signature de la partie recourante ou de son représentant ; y seront jointes une copie de la présente décision et les pièces invoquées comme moyens de preuve, lorsqu'elles sont disponibles. Conformément à l'art. 56, al. 2, LMP, les dispositions de la Loi fédérale sur la procédure administrative (PA) relatives à la suspension des délais ne s'appliquent pas.</P>
+					<P>Délai de clôture pour le dépôt des offres / Remarques: Pour les entreprises préimpliquées, c'est le délai de soumission défini dans le chiffre 4.5 qui s'applique même si elles faisaient uniquement partie d'une communauté de soumissionnaires lors de la préparation. L'offre (dossier de l’offre) doit être soumise en deux (2) exemplaires sous forme papier avec les signatures originales. En outre, l'offre doit être soumise sous forme électronique (par exemple sur une clé USB). Il doit consister en un seul fichier PDF qui comprend l'intégralité de l'offre physique. Seuls les fichiers dans des formats spéciaux sont exemptés de cette règle et peuvent être soumis séparément (en plus du fichier PDF). Envoi par courrier A (date du cachet apposé par un bureau de poste suisse ou un bureau de poste étranger officiellement reconnu; l’affranchissement par une machine d’entreprise n’est pas reconnu comme cachet postal). Le soumissionnaire doit dans tous les cas pouvoir prouver que l’offre a été déposée dans les délais. Les offres soumises hors délai ne seront pas prises en considération. L’enveloppe doit comporter, en plus de la désignation du projet, l’indication «Ne pas ouvrir – dossier d’offre» bien en évidence. Remise en mains propres: En cas de remise en mains propres, l’offre doit être déposée à la loge de l’OFROU au plus tard à la date indiquée ci-dessus, pendant les heures d’ouverture (horaires: 8h00 - 12h00 et 13h00 - 17h00), contre remise d’un accusé de réception (adresse au point 1.2). En cas de remise à une représentation diplomatique ou consulaire suisse à l’étranger, les soumissionnaires étrangers peuvent y déposer leur offre contre remise d’un accusé de réception, au plus tard à la date mentionnée ci-dessus, pendant les heures d’ouverture. L’accusé de réception doit alors être envoyé à l’adjudicateur par courriel, au plus tard à la date indiquée. Les offres reçues par fax ou par courriel ne seront pas prises en compte.</P>
+					<P>Remarques (Délai souhaité pour poser des questions par écrit)Les questions doivent être posées en allemand sur le forum du site www.simap.ch. Les réponses seront formulées de manière générale sur ce forum d’ici au 22.03.2022. Les questions reçues après le 10.03.2022 ne seront pas traitées.</P>
+					<P>Publication de référence nationale: Simap de la 23.02.2022 ,doc. 1245581Délai souhaité pour poser des questions par écrit: 10.03.2022.</P>
+				</INFO_ADD>
+				<ADDRESS_REVIEW_BODY>
+					<OFFICIALNAME>Bundesverwaltungsgericht</OFFICIALNAME>
+					<ADDRESS>Postfach</ADDRESS>
+					<TOWN>St. Gallen</TOWN>
+					<POSTAL_CODE>9023</POSTAL_CODE>
+					<COUNTRY VALUE="CH"/>
+				</ADDRESS_REVIEW_BODY>
+				<DATE_DISPATCH_NOTICE>2022-02-23</DATE_DISPATCH_NOTICE>
+			</COMPLEMENTARY_INFO>
+		</F02_2014>
+		<F02_2014 CATEGORY="ORIGINAL" FORM="F02" LG="DE">
+			<LEGAL_BASIS VALUE="32014L0024"/>
+			<CONTRACTING_BODY>
+				<ADDRESS_CONTRACTING_BODY>
+					<OFFICIALNAME>Bundesamt für Strassen ASTRA, Abteilung Strasseninfrastruktur Ost, Filiale Winterthur</OFFICIALNAME>
+					<ADDRESS>Grüzefeldstrasse 41</ADDRESS>
+					<TOWN>Winterthur</TOWN>
+					<POSTAL_CODE>8404</POSTAL_CODE>
+					<COUNTRY VALUE="CH"/>
+					<CONTACT_POINT>Offerte: 080418, N13-28 UEM, PV Bau AS Buchs, Knoten Langäulistr.</CONTACT_POINT>
+					<E_MAIL>beschaffung.winterthur@astra.admin.ch</E_MAIL>
+					<n2021:NUTS CODE="CH0"/>
+					<URL_GENERAL>https://www.simap.ch</URL_GENERAL>
+					<URL_BUYER>www.astra.admin.ch</URL_BUYER>
+				</ADDRESS_CONTRACTING_BODY>
+				<DOCUMENT_RESTRICTED/>
+				<URL_DOCUMENT>http://www.simap.ch/shabforms/servlet/Search?NOTICE_NR=1245563</URL_DOCUMENT>
+				<ADDRESS_FURTHER_INFO_IDEM/>
+				<ADDRESS_PARTICIPATION>
+					<OFFICIALNAME>Bundesamt für Strassen ASTRA, Abteilung Strasseninfrastruktur Ost, Filiale Winterthur</OFFICIALNAME>
+					<ADDRESS>Grüzefeldstrasse 41</ADDRESS>
+					<TOWN>Winterthur</TOWN>
+					<POSTAL_CODE>8404</POSTAL_CODE>
+					<COUNTRY VALUE="CH"/>
+					<CONTACT_POINT>Offerte: 080418, N13-28 UEM, PV Bau AS Buchs, Knoten Langäulistr. - nicht öffnen - Offertunterlagen</CONTACT_POINT>
+					<E_MAIL>beschaffung.winterthur@astra.admin.ch</E_MAIL>
+					<n2021:NUTS CODE="CH0"/>
+					<URL_GENERAL>https://www.simap.ch</URL_GENERAL>
+				</ADDRESS_PARTICIPATION>
+				<CA_TYPE VALUE="MINISTRY"/>
+				<CA_ACTIVITY_OTHER>Ausbau + Unterhalt Autobahn</CA_ACTIVITY_OTHER>
+			</CONTRACTING_BODY>
+			<OBJECT_CONTRACT>
+				<TITLE>
+					<P>080418, N13-28 UEM, PV Bau AS Buchs, Knoten Langäulistrasse</P>
+				</TITLE>
+				<CPV_MAIN>
+					<CPV_CODE CODE="71300000"/>
+				</CPV_MAIN>
+				<TYPE_CONTRACT CTYPE="SERVICES"/>
+				<SHORT_DESCR>
+					<P>Der Anschluss Buchs ist heute grösstenteils entflechtet und es bestehen nur wenige Vortrittsituationen mit Leistungseinschränkungen. Gleichwohl sind am Kreisel zwei Zuflüsse heute schon oder künftig überlastet. Ausserdem bestehen Probleme am Knoten Langäulistrasse, Anschluss Buchs bezüglich Verständlichkeit, Unfälle sowie ungenügenden Schleppkurven.</P>
+					<P>Im Rahmen des EK wurde eine Umgestaltung des Knotens Langäulistrasse beschlossen. Diese beinhaltet die Erstellung eines Lichtsignalanlagengesteuerten Knotens mit Verschiebungen der Brücke Langäulistrasse, eines bestehenden Unterführungsbauwerkes und eines bestehenden Ölabscheiders. Weitere Herausforderungen treten in Form der Topographie und bestehenden Installationen auf. Im Rahmen dieser Ausschreibung soll, dass im EK vorgeschlagene Projekt verifiziert und weiterbearbeitet werden.</P>
+				</SHORT_DESCR>
+				<NO_LOT_DIVISION/>
+				<OBJECT_DESCR ITEM="1">
+					<n2021:NUTS CODE="CH0"/>
+					<MAIN_SITE>
+						<P>Büro des Anbieters / der Anbieterin, Baustelle sowie ASTRA Infrastrukturfiliale in Winterthur, Zentrale in Ittigen (Sitzungen).</P>
+					</MAIN_SITE>
+					<SHORT_DESCR>
+						<P>Der Anschluss Buchs ist heute grösstenteils entflechtet und es bestehen nur wenige Vortrittsituationen mit Leistungseinschränkungen. Gleichwohl sind am Kreisel zwei Zuflüsse heute schon oder künftig überlastet. Ausserdem bestehen Probleme am Knoten Langäulistrasse, Anschluss Buchs bezüglich Verständlichkeit, Unfälle sowie ungenügenden Schleppkurven.</P>
+						<P>Im Rahmen des EK wurde eine Umgestaltung des Knotens Langäulistrasse beschlossen. Diese beinhaltet die Erstellung eines Lichtsignalanlagengesteuerten Knotens mit Verschiebungen der Brücke Langäulistrasse, eines bestehenden Unterführungsbauwerkes und eines bestehenden Ölabscheiders. Weitere Herausforderungen treten in Form der Topographie und bestehenden Installationen auf. Im Rahmen dieser Ausschreibung soll, dass im EK vorgeschlagene Projekt verifiziert und weiterbearbeitet werden.</P>
+					</SHORT_DESCR>
+					<AC>
+						<AC_COST>
+							<AC_CRITERION>Die Angaben betreffend Zuschlagskriterien müssen zusammen mit den (vorgegebenen) Angebotsunterlagen eingereicht werden:</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>ZK 1: PREIS</AC_CRITERION>
+							<AC_WEIGHTING>50%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>(Bewertung gemäss der für die Vergleichbarkeit der Offerten vorgegebenen Stunden)</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>ZK2: QUALITÄT DES ANBIETERS</AC_CRITERION>
+							<AC_WEIGHTING>20%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>Qualifikation der Schlüsselperson bzgl. der Anforderungen im Projekt</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>unterteilt in:</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>- Projektleiter</AC_CRITERION>
+							<AC_WEIGHTING>15%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>- Projektleiter Stv</AC_CRITERION>
+							<AC_WEIGHTING>5%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>Für die Schlüsselpersonen sind je 1 Referenzprojekt über abgeschlossene Arbeiten in gleichwertiger Funktion oder Stv.-Funktion mit vergleichbarer Komplexität und aus dem gleichen Fachbereich. Falls be</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>ZK3: QUALITÄT DES ANGEBOTS</AC_CRITERION>
+							<AC_WEIGHTING>30%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>unterteilt in:</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>- Aufgabenanalyse und Risikoanalyse</AC_CRITERION>
+							<AC_WEIGHTING>10%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>-Vorgehensvorschlag mit - QM-Konzept, Organigramm und Terminprogramm</AC_CRITERION>
+							<AC_WEIGHTING>15%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>- Plausibilität des Angebots</AC_CRITERION>
+							<AC_WEIGHTING>5%</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>Preisbewertung</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>Das tiefste bereinigte Angebot erhält die maximale Note (5). Angebote, deren Preis 100% oder mehr über dem tiefsten Angebot liegen, erhalten die Note 0. Dazwischen erfolgt die Bewertung linear (auf 2 </AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>Benotung der übrigen Zuschlagskriterien</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>Die Bewertung erfolgt immer mit Noten von 0 bis 5:</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>0 = Nicht beurteilbar; keine Angabe</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+						<AC_COST>
+							<AC_CRITERION>1 = Sehr schlecht erfüllt; ungenügende, unvollständige Angaben</AC_CRITERION>
+							<AC_WEIGHTING>1</AC_WEIGHTING>
+						</AC_COST>
+					</AC>
+					<DATE_START>2022-07-01</DATE_START>
+					<DATE_END>2027-12-31</DATE_END>
+					<NO_RENEWAL/>
+					<NO_ACCEPTED_VARIANTS/>
+					<NO_OPTIONS/>
+					<NO_EU_PROGR_RELATED/>
+				</OBJECT_DESCR>
+			</OBJECT_CONTRACT>
+			<LEFTI>
+				<ECONOMIC_FINANCIAL_INFO>
+					<P>Die nachfolgenden Eignungsnachweise / Bestätigungen müssen zusammen mit den (vorgegebenen) Angebotsunterlagen eingereicht werden, ansonsten nicht auf das Angebot eingegangen werden kann:</P>
+					<P>Zu EK 1 Referenz der Unternehmung: </P>
+					<P>1 Referenzprojekt über abgeschlossene Arbeiten mit vergleichbarer Komplexität und aus dem gleichen Fachbereich. Falls bei diesem nicht alle Phasen abgeschlossen vorliegen, kann der Nachweis mit max. 2 Teilreferenzen – je eine für die Projektierung sowie für die Submission und Realisierung (SIA-Phase 41 - 53) – erbracht werden.</P>
+					<P>Zu EK 2 Nachweis der wirtschaftlichen / finanziellen Leistungsfähigkeit: </P>
+					<P>Jahresumsatz Anbieter > doppelter Jahresumsatz des Auftrages. </P>
+					<P>Zu EK 3 Referenzen der Schlüsselperson: </P>
+					<P>1 Referenzprojekt über abgeschlossene Arbeiten in gleichwertiger Funktion oder Stv.-Funktion mit vergleichbarer Komplexität und aus dem gleichen Fachbereich. Falls bei diesem nicht alle Phasen abgeschlossen vorliegen, kann der Nachweis mit max. 2 Teilreferenzen – je eine für die Projektierung sowie für die Submission und Realisierung (SIA-Phase 41 - 53) – erbracht werden.</P>
+					<P>Zusätzlich ist der CV des Projektleiters abzugeben.</P>
+					<P>Zu EK 4 Nachweis der Verfügbarkeit: Für die Schlüsselpersonen: Nachweis, dass Verfügbarkeit > der erforderlichen Verfügbarkeit während der nächsten zwei Jahre gegeben ist. Detaillierte Aufzählung und Darstellung der zeitlichen Belastung an den übrigen Projekten. </P>
+					<P>Schlüsselpersonen sind: </P>
+					<P>- Projektleiter</P>
+					<P>- Projektleiter Stv.</P>
+					<P>Zu EK 5 Nachweis bezüglich Subunternehmer: </P>
+					<P>Maximal 50% der Leistung darf durch Subunternehmer erbracht werden. </P>
+					<P>Referenzen vom Subunternehmer sind zur Erbringung der Eignung nicht zugelassen.</P>
+				</ECONOMIC_FINANCIAL_INFO>
+				<TECHNICAL_PROFESSIONAL_INFO>
+					<P>Alle wirtschaftlich und technisch leistungsfähigen Firmen, die zudem die nachfolgenden Eignungsnachweise erbringen, sind aufgerufen, ein Angebot in CHF zu unterbreiten.</P>
+					<P>EK1: Technische Leistungsfähigkeit / Referenz der Firma</P>
+					<P>EK2: Wirtschaftliche / Finanzielle Leistungsfähigkeit</P>
+					<P>EK3: Referenz der Schlüsselperson</P>
+					<P>EK4: Nachweis der Verfügbarkeit</P>
+					<P>EK5: Leistungsanteil Subunternehmer</P>
+				</TECHNICAL_PROFESSIONAL_INFO>
+			</LEFTI>
+			<PROCEDURE>
+				<PT_OPEN/>
+				<CONTRACT_COVERED_GPA/>
+				<DATE_RECEIPT_TENDERS>2022-04-14</DATE_RECEIPT_TENDERS>
+				<LANGUAGES>
+					<LANGUAGE VALUE="DE"/>
+				</LANGUAGES>
+				<OPENING_CONDITION>
+					<DATE_OPENING_TENDERS>2022-04-22</DATE_OPENING_TENDERS>
+					<TIME_OPENING_TENDERS>23:59</TIME_OPENING_TENDERS>
+					<INFO_ADD>
+						<P>Der Termin ist provisorisch. Die Offertöffnung ist nicht öffentlich.</P>
+					</INFO_ADD>
+				</OPENING_CONDITION>
+			</PROCEDURE>
+			<COMPLEMENTARY_INFO>
+				<NO_RECURRENT_PROCUREMENT/>
+				<INFO_ADD>
+					<P>Teilangebote sind nicht zugelassen.</P>
+					<P>Voraussetzungen für Anbieter aus Staaten, die nicht dem WTO-Beschaffungsübereinkommen angehören: Keine.</P>
+					<P>Geschäftsbedingungen: Gemäss vorgesehener Vertragsurkunde.</P>
+					<P>Verhandlungen: Keine.</P>
+					<P>Grundsätzliche Anforderungen: Die Auftraggeberin vergibt öffentliche Aufträge für Leistungen in der Schweiz nur an Anbieterinnen und Anbieter, welche die Einhaltung der Arbeitsschutzbestimmungen und der Arbeitsbedingungen für Arbeitnehmer und Arbeitnehmerinnen sowie die Lohngleichheit für Mann und Frau gewährleisten.</P>
+					<P>Sonstige Angaben: 1. Vorbehalten bleiben die Beschaffungsreife des Projektes sowie die Verfügbarkeit der Kredite; 2. Die Erarbeitung der Angebote wird nicht vergütet. Die Angebotsunterlagen werden nicht zurückgegeben; 3. Ausschreibungsunterlagen sind in deutscher Sprache erhältlich. Bei Widersprüchen zwischen den Fassungen ist die deutsche Version massgebend. 4. Die Projektsprache ist Deutsch. Daher wird bei allen Schlüsselpersonen mindestens Niveau C1 (nach GER) vorausgesetzt. Die Auftraggeberin behält sich vor, Interviews durchzuführen oder Zertifikate zu verlangen.</P>
+					<P>Rechtsmittelbelehrung: Gegen diese Verfügung kann gemäss Art. 56 Abs. 1 des Bundesgesetzes über das öffentliche Beschaffungswesen (BöB) innert 20 Tagen seit Eröffnung schriftlich Beschwerde beim Bundesverwaltungsgericht, Postfach, 9023 St. Gallen, erhoben werden. Die Beschwerde ist im Doppel einzureichen und hat die Begehren, deren Begründung mit Angabe der Beweismittel sowie die Unterschrift der beschwerdeführenden Person oder ihrer Vertretung zu enthalten. Eine Kopie der vorliegenden Verfügung und vorhandene Beweismittel sind beizulegen. Die Bestimmungen des Verwaltungsverfahrensgesetzes (VwVG) über den Fristenstillstand finden gemäss Art. 56 Abs. 2 BöB keine Anwendung.</P>
+					<P>Schlusstermin / Bemerkungen: Für vorbefasste Firmen – auch wenn sie in der Vorbereitung lediglich Teil einer Arbeitsgemeinschaft waren – gilt die Einreichungsfrist nach Ziff. 4.5. Es sind zwei (2) Exemplare des Angebots (der Angebotsunterlagen) in Papierform mit Originalunterschriften einzureichen. Zusätzlich ist das Angebot in elektronischer Form (z.B. auf USB-Stick) einzureichen. Dabei hat es aus einer einzigen PDF-Datei zu bestehen, welche das gesamte physische Angebot umfasst. Einzig Dateien in Spezialformaten sind von dieser Regelung ausgenommen und können separat (nebst dem PDF-File) eingereicht werden. Einreichung auf dem Postweg: A-Post (Datum Poststempel einer Schweizerischen oder staatlich anerkannten ausländischen Poststelle; Firmenfrankaturen gelten nicht als Poststempel). Die Anbieter bzw. der Anbieter hat in jedem Fall den Beweis für die Rechtzeitigkeit der Angebotseinreichung sicherzustellen. Verspätete Angebote werden nicht mehr berücksichtigt. Auf dem Couvert ist neben der Projektbezeichnung deutlich der Vermerk "Nicht öffnen - Offertunterlagen" anzubringen. Persönliche Abgabe: Die Abgabe hat bis spätestens am oben erwähnten Abgabetermin während den Öffnungszeiten der Loge (08:00 - 12:00 Uhr und 13:00 - 17:00 Uhr) gegen Ausstellung einer Empfangsbestätigung zu erfolgen (Adresse s. 1.2). Übergabe an eine diplomatische oder konsularische Vertretung der Schweiz: Ausländische Anbieter können ihr Angebot bis spätestens am oben erwähnten Abgabetermin einer diplomatischen oder konsularischen Vertretung der Schweiz in ihrem Land, während den Öffnungszeiten gegen Ausstellung einer Empfangsbestätigung, übergeben. Die Anbieter sind in diesem Fall verpflichtet, die Empfangsbestätigung vor dem Abgabetermin per E-Mail der Beschaffungsstelle zu senden. Auf Angebote, die per E-Mail oder Fax zugestellt werden, wird nicht eingetreten!.</P>
+					<P>Bemerkungen (Termin für schriftliche Fragen)Fragen sind in deutscher Sprache unter www.simap.ch im "Forum“ einzureichen. Sie werden bis am 22.03.2022 allen Bezügern der Ausschreibungsunterlagen gleichlautend unter www.simap.ch im "Forum" beantwortet. Nach dem 10.03.2022 eintreffende Fragen werden nicht mehr beantwortet.</P>
+					<P>Nationale Referenz-Publikation: Simap vom 23.02.2022 , Dok. 1245563Gewünschter Termin für schriftliche Fragen bis: 10.03.2022.</P>
+				</INFO_ADD>
+				<ADDRESS_REVIEW_BODY>
+					<OFFICIALNAME>Bundesverwaltungsgericht</OFFICIALNAME>
+					<ADDRESS>Postfach</ADDRESS>
+					<TOWN>St. Gallen</TOWN>
+					<POSTAL_CODE>9023</POSTAL_CODE>
+					<COUNTRY VALUE="CH"/>
+				</ADDRESS_REVIEW_BODY>
+				<DATE_DISPATCH_NOTICE>2022-02-23</DATE_DISPATCH_NOTICE>
+			</COMPLEMENTARY_INFO>
+		</F02_2014>
+	</FORM_SECTION>
+</TED_EXPORT>
