@@ -115,7 +115,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 ConsoleUtils.StartTimer(watch);
 
                 //"Create new .csv file" and read xml
-                csvCreate.CreateNewCsv(readOption);
+                csvCreate.CreateNewTxt(readOption);
 
                 ConsoleUtils.StopTimer(watch);
                 ConsoleUtils.BackToMenu();

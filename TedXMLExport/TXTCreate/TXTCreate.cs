@@ -76,7 +76,7 @@ namespace LeerTedXML.CSVCreate
             this._ixmlDoc = ixmlDoc;
         }
 
-        public void CreateNewCsv(int readOption)
+        public void CreateNewTxt(int readOption)
         {
             // NOTE OPTION 2 FROM SUBMENU
 

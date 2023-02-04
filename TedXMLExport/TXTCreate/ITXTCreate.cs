@@ -10,7 +10,7 @@ namespace LeerTedXML.TXTCreate
     internal interface ITXTCreate
     {
         void AppendTxt(int readOption);
-        void CreateNewCsv(int readOption);
+        void CreateNewTxt(int readOption);
         void ReadXml(int readOption);
     }
 }
