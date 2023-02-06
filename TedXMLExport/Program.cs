@@ -21,7 +21,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
 
         //methods
-        private static void RunMainMenu()
+        public static void RunMainMenu()
         {
             string separator     = "****************************************************";
             string prompt        = "******** READ Tenders Online Daily XML files *******";
@@ -59,7 +59,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
         }
 
-        private static int RunExportMenu()
+        public static int RunExportMenu()
         {
             string separator    = "****************************************************";
             string prompt       = "****************** EXPORT options ******************";
@@ -135,7 +135,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
         }
 
 
-        static void ShowCredits()
+        private static void ShowCredits()
         {
             ConsoleUtils.WriteLineMenuColor("\t> Name of project");
             Console.WriteLine("\t" + Assembly.GetExecutingAssembly().GetName().Name);
@@ -165,6 +165,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             ConsoleUtils.WriteLineMenuColor("\t> Authorship");
             Console.WriteLine("\tApplied R&D team. MorphEstudio. ©2023");
 
+            ConsoleUtils.BackToMenu();
         }
 
         //TODO Move to another class

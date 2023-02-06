@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyApp;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace TedXMLExport.Menu
         {
             WriteLineEventColor("(Press any key get back to menu.)");
             Console.ReadKey(true);
+            Program.RunMainMenu();
         }
         public static void ExitMenu()
         {
