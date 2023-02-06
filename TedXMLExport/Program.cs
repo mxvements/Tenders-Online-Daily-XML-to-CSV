@@ -2,6 +2,7 @@
 using LeerTedXML.XMLDocument;
 using LeerTedXML.XMLReader;
 using System.Diagnostics;
+using System.Reflection;
 using TedXMLExport.Menu;
 using TedXMLExport.XMLTedObject;
 
@@ -136,10 +137,37 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
         static void ShowCredits()
         {
-            Console.WriteLine("WIP");
+            ConsoleUtils.WriteLineMenuColor("\t> Name of project");
+            Console.WriteLine("\t" + Assembly.GetExecutingAssembly().GetName().Name);
+
+            ConsoleUtils.WriteLineMenuColor("\t> Description:");
+            Console.WriteLine("\tConsole applictation to filter and parse TED documents." +
+                "\n\tFiltering conditions:" +
+                "\n\t - CPV starting w/ '71' -archiecture and engineering services- " +
+                "\n\t - F02 or F12 forms -contract notices and design contest notices-.");
+
+            ConsoleUtils.WriteLineMenuColor("\t> Version");
+            Console.WriteLine("\t" + Assembly.GetExecutingAssembly().GetName().Version);
+
+            ConsoleUtils.WriteLineMenuColor("\t> Target runtime environment");
+            Console.WriteLine("\tPortable");
+
+            string publish_folder = @"" +
+                "G:\\Unidades compartidas\\P10380 I+D\\P10380 I+D Tenders Online Daily\\dev\\TendersOnlineDaily\\TedXMLExport\\bin\\Publish\\TedXMLExport.exe";
+            string exe_last_modified = System.IO.File.GetLastWriteTime(publish_folder).ToShortDateString();
+            ConsoleUtils.WriteLineMenuColor("\t> Project last published on:");
+            Console.WriteLine("\t" + exe_last_modified);
+
+            string project_last_modified = System.IO.File.GetLastWriteTime(Assembly.GetExecutingAssembly().Location).ToShortDateString();
+            ConsoleUtils.WriteLineMenuColor("\t> Project last edited on:");
+            Console.WriteLine("\t" + project_last_modified);
+
+            ConsoleUtils.WriteLineMenuColor("\t> Authorship");
+            Console.WriteLine("\tApplied R&D team. MorphEstudio. ©2023");
+
         }
 
-
+        //TODO Move to another class
         public static void PrintControlText(List<TED_EXPORT> ted_exportList)
         {
             ConsoleUtils.WriteLineInfoColor("INFO Console print:");

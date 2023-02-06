@@ -3091,7 +3091,6 @@ namespace TedXMLExport.XMLTedObject
         [XmlElement(ElementName = "PERFORMANCE_CONDITIONS")]
         public PERFORMANCE_CONDITIONS? _PERFORMANCE_CONDITIONS { get; set; } = new PERFORMANCE_CONDITIONS();
 
-        //TODO
         [XmlElement(ElementName = "PERFORMANCE_STAFF_QUALIFICATION")]
         public PERFORMANCE_STAFF_QUALIFICATION? _PERFORMANCE_STAFF_QUALIFICATION { get; set; } = new PERFORMANCE_STAFF_QUALIFICATION();
     }
@@ -3183,19 +3182,9 @@ namespace TedXMLExport.XMLTedObject
     public class PROCEDURE
     {
         //ELEMENTS
-        //TODO REVISAR CONTRATOS
         [XmlElement(ElementName = "PT_RESTRICTED")]
         public PT_RESTRICTED? _PT_RESTRICTED { get; set; }
-        /*
-         * [XmlElement(ElementName = "PT_OPEN")]
-         * public string PT_OPEN { get; set; }
-         * 
-         * 
-         * PT_OPEN
-         * PT_RESTRICTED
-         * PT_COMPETITIVE_NEGOTIATION
-         * PT_COMPETITIVE_DIALOGUE
-         */
+
         public string? _first_element { get; set; } = string.Empty;
 
         [XmlElement(ElementName = "NB_PARTICIPANTS")]

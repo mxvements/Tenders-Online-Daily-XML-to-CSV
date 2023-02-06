@@ -1,15 +1,7 @@
 ﻿using LeerTedXML.TXTCreate;
 using LeerTedXML.XMLDocument;
 using MyApp;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
 using System.Text;
-using System.Threading.Tasks;
 using TedXMLExport.Menu;
 using TedXMLExport.XMLTedObject;
 
@@ -17,10 +9,11 @@ namespace LeerTedXML.CSVCreate
 {
     internal class TXTCreate : ITXTCreate
     {
+        #region main attr and ctor
         // inyección de dependencias
-        private readonly IXMLDoc _ixmlDoc;
+        private readonly IXMLDoc _ixmlDoc;        
         
-        //attributos
+        //attr
         private string? _txtFilePath { get; set; }
         public string _txtTitles {
             get 
@@ -71,14 +64,18 @@ namespace LeerTedXML.CSVCreate
             }
         }
 
+        //ctor
         public TXTCreate(IXMLDoc ixmlDoc)
         {
             this._ixmlDoc = ixmlDoc;
         }
+        #endregion
 
         //methods
         public void CreateNewTxt(int readOption)
         {
+            //TODO use StringBuilder for efficiency
+
             // NOTE OPTION 2 FROM SUBMENU
 
             // cuando creamos uno nuevo tenemos que asignar ruta,            
@@ -195,11 +192,6 @@ namespace LeerTedXML.CSVCreate
             return finalString;
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="readOption"></param>
-        /// <returns></returns>
         private string TedExportToTxt(int readOption)
         {
             List<TED_EXPORT> ted_export_list = new List<TED_EXPORT>();
