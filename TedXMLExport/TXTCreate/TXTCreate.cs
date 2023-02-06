@@ -76,6 +76,7 @@ namespace LeerTedXML.CSVCreate
             this._ixmlDoc = ixmlDoc;
         }
 
+        //methods
         public void CreateNewTxt(int readOption)
         {
             // NOTE OPTION 2 FROM SUBMENU
@@ -171,6 +172,34 @@ namespace LeerTedXML.CSVCreate
             Program.PrintControlText(ted_export_list);
         }
 
+        public static string ConcatenateParagraph(List<P> pObjectList)
+        {
+            int pObjectCount = pObjectList.Count();
+            string finalString = string.Empty;
+
+            if(pObjectCount == 0) { return finalString; }
+
+            for (int i = 0; i < pObjectCount; i++)
+            {
+                var element = pObjectList![i];
+                if (i == 0)
+                {
+                    finalString += $"{element._Text.Replace("\t", " // ").Replace("\n", " // ")}";
+                }
+                else
+                {
+                    finalString += $" // {element._Text.Replace("\t", " // ").Replace("\n", " // ")}";
+                }
+            }
+
+            return finalString;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="readOption"></param>
+        /// <returns></returns>
         private string TedExportToTxt(int readOption)
         {
             List<TED_EXPORT> ted_export_list = new List<TED_EXPORT>();
@@ -182,9 +211,7 @@ namespace LeerTedXML.CSVCreate
             // IF 2 = read single file and export
             if(readOption == 1){ ted_export_list = _ixmlDoc.XmlFolderFilesObjects(); }
             if(readOption == 2){ ted_export_list = _ixmlDoc.XmlSingleFileObject(); }
-            
-
-
+           
             int count = ted_export_list.Count;
             for(int k = 0; k<count; k++ )
             {
@@ -192,8 +219,7 @@ namespace LeerTedXML.CSVCreate
                 TED_EXPORT ted = ted_export_list[k];
 
                 //add new row
-                if (k != 0){ ted_export_string += "\n"; } 
-
+                if (k != 0){ ted_export_string += "\n"; }
 
                 // ID and dates
                 ted_export_string += ted.DOC_ID + "\t";
@@ -371,28 +397,7 @@ namespace LeerTedXML.CSVCreate
             return ted_export_string;
         }
 
-        public static string ConcatenateParagraph(List<P> pObjectList)
-        {
-            int pObjectCount = pObjectList.Count();
-            string finalString = string.Empty;
-
-            if(pObjectCount == 0) { return finalString; }
-
-            for (int i = 0; i < pObjectCount; i++)
-            {
-                var element = pObjectList![i];
-                if (i == 0)
-                {
-                    finalString += $"{element._Text.Replace("\t", " // ").Replace("\n", " // ")}";
-                }
-                else
-                {
-                    finalString += $" //  {element._Text.Replace("\t", " // ").Replace("\n", " // ")}";
-                }
-            }
-
-            return finalString;
-        }
+       
 
     }
 }
