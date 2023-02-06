@@ -95,8 +95,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
         static void DispatchOptions(int fileOption, int readOption)
         {
-            XMLRead xmlRead = new XMLRead();
-            XMLDoc xmlDoc = new XMLDoc(xmlRead);
+            XMLTedFilter xmlRead = new XMLTedFilter();
+            XMLTedParser xmlDoc = new XMLTedParser(xmlRead);
             TXTCreate csvCreate = new TXTCreate(xmlDoc);
 
             if (fileOption == 1)

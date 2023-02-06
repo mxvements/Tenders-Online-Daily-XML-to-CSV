@@ -11,7 +11,7 @@ namespace LeerTedXML.CSVCreate
     {
         #region main attr and ctor
         // inyección de dependencias
-        private readonly IXMLDoc _ixmlDoc;        
+        private readonly IXMLTedParser _ixmlDoc;        
         
         //attr
         private string? _txtFilePath { get; set; }
@@ -65,7 +65,7 @@ namespace LeerTedXML.CSVCreate
         }
 
         //ctor
-        public TXTCreate(IXMLDoc ixmlDoc)
+        public TXTCreate(IXMLTedParser ixmlDoc)
         {
             this._ixmlDoc = ixmlDoc;
         }

@@ -2,7 +2,7 @@
 
 namespace LeerTedXML.XMLDocument
 {
-    internal interface IXMLDoc
+    internal interface IXMLTedParser
     {
         List<TED_EXPORT> XmlSingleFileObject();
         List<TED_EXPORT> XmlFolderFilesObjects();

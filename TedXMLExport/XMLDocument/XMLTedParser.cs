@@ -11,14 +11,14 @@ using TedXMLExport.XMLTedObject;
 
 namespace LeerTedXML.XMLDocument
 {
-    internal class XMLDoc : IXMLDoc
+    internal class XMLTedParser : IXMLTedParser
     {
         //TODO Change class name to XmlTedObject
 
         //inyeccion de dependencias (XMLRead)
-        private readonly IXMLRead _ixmlRead;
+        private readonly IXMLTedFilter _ixmlRead;
         //ctor
-        public XMLDoc(IXMLRead ixmlRead)
+        public XMLTedParser(IXMLTedFilter ixmlRead)
         {
             this._ixmlRead = ixmlRead;
         }

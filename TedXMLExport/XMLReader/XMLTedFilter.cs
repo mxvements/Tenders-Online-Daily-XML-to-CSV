@@ -4,7 +4,7 @@ using TedXMLExport.Menu;
 
 namespace LeerTedXML.XMLReader
 {
-    internal class XMLRead : IXMLRead
+    internal class XMLTedFilter : IXMLTedFilter
     {
         //TODO Change class name to XmlTedFilter
         public List<string> XmlSingleFileReader()
