@@ -167,10 +167,10 @@ namespace LeerTedXML.CSVCreate
             Program.PrintControlText(ted_export_list);
         }
 
-        public static string ConcatenateParagraph(List<P> pObjectList)
+        public static StringBuilder ConcatenateParagraph(List<P> pObjectList)
         {
             int pObjectCount = pObjectList.Count();
-            string finalString = string.Empty;
+            StringBuilder finalString = new StringBuilder();
 
             if(pObjectCount == 0) { return finalString; }
 
@@ -179,11 +179,11 @@ namespace LeerTedXML.CSVCreate
                 var element = pObjectList![i];
                 if (i == 0)
                 {
-                    finalString += $"{element._Text.Replace("\t", " // ").Replace("\n", " // ")}";
+                    finalString.Append($"{element._Text.Replace("\t", " // ").Replace("\n", " // ")}");
                 }
                 else
                 {
-                    finalString += $" // {element._Text.Replace("\t", " // ").Replace("\n", " // ")}";
+                    finalString.Append($" // {element._Text.Replace("\t", " // ").Replace("\n", " // ")}");
                 }
             }
 
@@ -192,11 +192,8 @@ namespace LeerTedXML.CSVCreate
 
         private StringBuilder TedExportToTxt(int readOption)
         {
-            //TODO use StringBuilder for efficiency
-
-            List<TED_EXPORT> ted_export_list = new List<TED_EXPORT>();
-
             StringBuilder ted_export_str = new StringBuilder();
+            List<TED_EXPORT> ted_export_list = new List<TED_EXPORT>();
 
             // IF 1 = read folder and export
             // IF 2 = read single file and export
@@ -221,16 +218,12 @@ namespace LeerTedXML.CSVCreate
                 ted_export_str.Append(ted.CODED_DATA_SECTION!._REF_OJS!._DATE_PUB!._Text + "\t");
                 ted_export_str.Append(ted.TECHNICAL_SECTION!._DELETION_DATE!._Text + "\t");
 
-
-
-
                 // ted uri
                 StringBuilder uri_docs = new StringBuilder();
                 ted.CODED_DATA_SECTION!._NOTICE_DATA!._URI_LIST!._URI_DOC!.ForEach(x => {
                     uri_docs.AppendJoin(" // ", x._Text);
                 });
                 ted_export_str.Append(uri_docs + "\t");
-
 
                 // LANGUAAGE AND FORMS INFO
                 ted_export_str.Append(ted.CODED_DATA_SECTION!._NOTICE_DATA!._LG_ORIG!._Text + "\t");
@@ -329,12 +322,12 @@ namespace LeerTedXML.CSVCreate
                 ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._CRITERIA_SELECTION!._P!) + "\t");
                 ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._SUITABILITY!._P!) + "\t");
 
-                string particular_prof_list_attr = string.Empty;
+                StringBuilder particular_prof_list_attr = new StringBuilder();
                 if (ted.FORM_SECTION!._FORM._LEFTI!._PARTICULAR_PROFESSION!._CTYPE! != String.Empty)
                 {
-                    particular_prof_list_attr += $"CTYPE: {ted.FORM_SECTION!._FORM._LEFTI!._PARTICULAR_PROFESSION!._CTYPE!}/ ";
+                    particular_prof_list_attr.Append($"CTYPE: {ted.FORM_SECTION!._FORM._LEFTI!._PARTICULAR_PROFESSION!._CTYPE!}/ ");
                 }
-                ted_export_string += particular_prof_list_attr + ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._PARTICULAR_PROFESSION!._P!) + "\t";
+                ted_export_str.Append(particular_prof_list_attr + ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._PARTICULAR_PROFESSION!._P!) + "\t");
 
 
                 ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._ECONOMIC_FINANCIAL_INFO!._P!) + "\t");
@@ -345,13 +338,10 @@ namespace LeerTedXML.CSVCreate
                 ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._COMPLEMENTARY_INFO!._INFO_ADD!._P!) + "\t");
                 ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._COMPLEMENTARY_INFO!._REVIEW_PROCEDURE!._P!) + "\t");
                 ted_export_str.Append($"{ted.FORM_SECTION!._FORM._COMPLEMENTARY_INFO!._DATE_DISPATCH_NOTICE!._Text}" + "\t");
-                
-                
-
 
             }
 
-            return ted_export_string;
+            return ted_export_str;
         }
 
        
