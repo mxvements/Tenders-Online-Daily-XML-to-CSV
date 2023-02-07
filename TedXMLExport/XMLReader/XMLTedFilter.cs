@@ -6,7 +6,6 @@ namespace LeerTedXML.XMLReader
 {
     internal class XMLTedFilter : IXMLTedFilter
     {
-        //TODO Change class name to XmlTedFilter
         public List<string> XmlSingleFileReader()
         {
             List<string> xml_file_list = new List<string>();

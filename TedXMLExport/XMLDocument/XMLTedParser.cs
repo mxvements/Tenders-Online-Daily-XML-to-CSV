@@ -13,8 +13,6 @@ namespace LeerTedXML.XMLDocument
 {
     internal class XMLTedParser : IXMLTedParser
     {
-        //TODO Change class name to XmlTedObject
-
         //inyeccion de dependencias (XMLRead)
         private readonly IXMLTedFilter _ixmlRead;
         //ctor

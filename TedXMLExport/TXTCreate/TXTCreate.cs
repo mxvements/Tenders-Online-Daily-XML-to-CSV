@@ -74,8 +74,6 @@ namespace LeerTedXML.CSVCreate
         //methods
         public void CreateNewTxt(int readOption)
         {
-            //TODO use StringBuilder for efficiency
-
             // NOTE OPTION 2 FROM SUBMENU
 
             // cuando creamos uno nuevo tenemos que asignar ruta,            
@@ -116,7 +114,7 @@ namespace LeerTedXML.CSVCreate
 
         public void AppendTxt(int readOption)
         {
-            // NOTE 1 FROM SUBMENU
+            // NOTE OPTION 1 FROM SUBMENU
 
             // pedir ruta de archivo csv a actualizar
             ConsoleUtils.WriteLineMenuColor("SET .txt file path:");
@@ -192,12 +190,13 @@ namespace LeerTedXML.CSVCreate
             return finalString;
         }
 
-        private string TedExportToTxt(int readOption)
+        private StringBuilder TedExportToTxt(int readOption)
         {
-            List<TED_EXPORT> ted_export_list = new List<TED_EXPORT>();
-            string ted_export_string = string.Empty;
+            //TODO use StringBuilder for efficiency
 
-            StringBuilder ted_export_stringbuilder = new StringBuilder();
+            List<TED_EXPORT> ted_export_list = new List<TED_EXPORT>();
+
+            StringBuilder ted_export_str = new StringBuilder();
 
             // IF 1 = read folder and export
             // IF 2 = read single file and export
@@ -211,158 +210,124 @@ namespace LeerTedXML.CSVCreate
                 TED_EXPORT ted = ted_export_list[k];
 
                 //add new row
-                if (k != 0){ ted_export_string += "\n"; }
+                if (k != 0)
+                {
+                    ted_export_str.Append("\n");
+                }
 
                 // ID and dates
-                ted_export_string += ted.DOC_ID + "\t";
-                ted_export_string += ted.CODED_DATA_SECTION!._NOTICE_DATA!._NO_DOC_OJS!._Text + "\t";
-                ted_export_string += ted.CODED_DATA_SECTION!._REF_OJS!._DATE_PUB!._Text + "\t";
-                ted_export_string += ted.TECHNICAL_SECTION!._DELETION_DATE!._Text + "\t";
+                ted_export_str.Append(ted.DOC_ID + "\t");
+                ted_export_str.Append(ted.CODED_DATA_SECTION!._NOTICE_DATA!._NO_DOC_OJS!._Text + "\t");
+                ted_export_str.Append(ted.CODED_DATA_SECTION!._REF_OJS!._DATE_PUB!._Text + "\t");
+                ted_export_str.Append(ted.TECHNICAL_SECTION!._DELETION_DATE!._Text + "\t");
+
+
+
 
                 // ted uri
-                string uri_list = string.Empty;
-                int uri_count = ted.CODED_DATA_SECTION!._NOTICE_DATA!._URI_LIST!._URI_DOC!.Count();
-                for (int i = 0; i < uri_count; i++)
-                {
-                    var element = ted.CODED_DATA_SECTION!._NOTICE_DATA!._URI_LIST!._URI_DOC![i];
-                    if (i == (uri_count - 1))
-                    {
-                        uri_list += $"{element._Text}";
-                    }
-                    else
-                    {
-                        uri_list += $"{element._Text} // ";
-                    }
+                StringBuilder uri_docs = new StringBuilder();
+                ted.CODED_DATA_SECTION!._NOTICE_DATA!._URI_LIST!._URI_DOC!.ForEach(x => {
+                    uri_docs.AppendJoin(" // ", x._Text);
+                });
+                ted_export_str.Append(uri_docs + "\t");
 
-                }
-                ted_export_string += uri_list + "\t";
 
                 // LANGUAAGE AND FORMS INFO
-                ted_export_string += ted.CODED_DATA_SECTION!._NOTICE_DATA!._LG_ORIG!._Text + "\t";
-                ted_export_string += $"{ted.FORM_SECTION!._FORM!._CATEGORY} // {ted.FORM_SECTION!._FORM!._FORM}" + "\t";
-                ted_export_string += ted.FORM_SECTION!._FORM!._DIRECTIVE!._VALUE + "\t";
+                ted_export_str.Append(ted.CODED_DATA_SECTION!._NOTICE_DATA!._LG_ORIG!._Text + "\t");
+                ted_export_str.Append($"{ted.FORM_SECTION!._FORM!._CATEGORY} // {ted.FORM_SECTION!._FORM!._FORM}" + "\t");
+                ted_export_str.Append(ted.FORM_SECTION!._FORM!._DIRECTIVE!._VALUE + "\t");
 
                 // LOCALIZATION
-                int ml_ti_doc_count = ted.TRANSLATION_SECTION!._ML_TITLES!._ML_TI_DOC!.Count();
-                string ti_cy = string.Empty;
-                string ti_towm = string.Empty;
-                string ti_text = string.Empty;
-                for (int i = 0; i < ml_ti_doc_count; i++)
+                StringBuilder ti_cy = new StringBuilder();
+                StringBuilder ti_towm = new StringBuilder();
+                StringBuilder ti_text = new StringBuilder();
+                ted.TRANSLATION_SECTION!._ML_TITLES!._ML_TI_DOC!.ForEach(x =>
                 {
-                    var element = ted.TRANSLATION_SECTION!._ML_TITLES!._ML_TI_DOC![i];
-                    if (i == (ml_ti_doc_count - 1))
-                    {
-                        ti_cy += $"{element._TI_CY!._Text}";
-                        ti_towm += $"{element._TI_TOWN!._Text}";
-
-                        int ml_ti_text_p_count = element._TI_TEXT!._P!.Count();
-                        for (int j = 0; j < ml_ti_text_p_count; j++)
-                        {
-                            var el = ted.TRANSLATION_SECTION!._ML_TITLES!._ML_TI_DOC![i]._TI_TEXT!._P![j];
-                            ti_text += $"{el._Text}";
-                        }
-                    }
-                }
-                ted_export_string += ti_cy + "\t";
-                ted_export_string += ti_towm + "\t";
-                ted_export_string += ti_text + "\t";
+                    ti_cy.Append(x._TI_CY!._Text);
+                    ti_towm.Append(x._TI_TOWN!._Text);
+                    x._TI_TEXT!._P!.ForEach(y => ti_text.Append(y._Text));
+                });
+                ted_export_str.Append(ti_cy + "\t");
+                ted_export_str.Append(ti_towm + "\t");
+                ted_export_str.Append(ti_text + "\t");
 
                 // CPV
-                string original_cpv_list = string.Empty;
-                int original_cpv_count = ted.CODED_DATA_SECTION!._NOTICE_DATA!._ORIGINAL_CPV!.Count();
-                for (int i = 0; i < original_cpv_count; i++)
+                StringBuilder original_cpv_list = new StringBuilder();
+                ted.CODED_DATA_SECTION!._NOTICE_DATA!._ORIGINAL_CPV!.ForEach(x =>
                 {
-                    var element = ted.CODED_DATA_SECTION!._NOTICE_DATA!._ORIGINAL_CPV![i];
-                    if (i == (original_cpv_count - 1))
-                    {
-                        original_cpv_list += $"{element._CODE} - {element._Text}";
-                    }
-                    else
-                    {
-                        original_cpv_list += $"{element._CODE} - {element._Text} // ";
-                    }
-                }
-                ted_export_string += original_cpv_list + "\t";
+                    original_cpv_list.AppendJoin(" // ", x._Text);
+                });
+                ted_export_str.Append(original_cpv_list + "\t");
 
                 // CODIF_DATA
-                ted_export_string +=
-                     $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._AA_AUTHORITY_TYPE!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._AA_AUTHORITY_TYPE!._Text}" + "\t";
-                ted_export_string +=
-                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._TD_DOCUMENT_TYPE!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._TD_DOCUMENT_TYPE!._Text}" + "\t";
-                ted_export_string +=
-                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._NC_CONTRACT_NATURE!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._NC_CONTRACT_NATURE!._Text}" + "\t";
-                ted_export_string +=
-                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._PR_PROC!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._PR_PROC!._Text}" + "\t";
-                ted_export_string +=
-                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._RP_REGULATION!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._RP_REGULATION!._Text}" + "\t";
-                ted_export_string +=
-                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._TY_TYPE_BID!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._TY_TYPE_BID!._Text}" + "\t";
-                ted_export_string +=
-                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._AC_AWARD_CRIT!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._AC_AWARD_CRIT!._Text}" + "\t";
-                ted_export_string +=
-                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._MA_MAIN_ACTIVITIES!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._MA_MAIN_ACTIVITIES!._Text}" + "\t";
+                ted_export_str.Append(
+                     $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._AA_AUTHORITY_TYPE!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._AA_AUTHORITY_TYPE!._Text}" + "\t");
+                ted_export_str.Append(
+                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._TD_DOCUMENT_TYPE!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._TD_DOCUMENT_TYPE!._Text}" + "\t");
+                ted_export_str.Append(
+                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._NC_CONTRACT_NATURE!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._NC_CONTRACT_NATURE!._Text}" + "\t");
+                ted_export_str.Append(
+                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._PR_PROC!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._PR_PROC!._Text}" + "\t");
+                ted_export_str.Append(
+                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._RP_REGULATION!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._RP_REGULATION!._Text}" + "\t");
+                ted_export_str.Append(
+                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._TY_TYPE_BID!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._TY_TYPE_BID!._Text}" + "\t");
+                ted_export_str.Append(
+                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._AC_AWARD_CRIT!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._AC_AWARD_CRIT!._Text}" + "\t");
+                ted_export_str.Append(
+                    $"{ted.CODED_DATA_SECTION!._CODIF_DATA!._MA_MAIN_ACTIVITIES!._CODE} - {ted.CODED_DATA_SECTION!._CODIF_DATA!._MA_MAIN_ACTIVITIES!._Text}" + "\t");
 
                 // OBJECT_CONTRACT
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM!._OBJECT_CONTRACT!._TITLE!._P!) + "\t";
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM._OBJECT_CONTRACT!._OBJECT_DESCR!._SHORT_DESCR!._P!) + "\t";
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM!._OBJECT_CONTRACT!._TITLE!._P!) + "\t");
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._OBJECT_CONTRACT!._OBJECT_DESCR!._SHORT_DESCR!._P!) + "\t");
 
                 // CONTRACTING_BODY
-                ted_export_string += $"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._CA_TYPE!._VALUE}" + "\t";
-                ted_export_string += $"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._CA_TYPE_OTHER!._Text}" + "\t";
-                ted_export_string += $"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._CA_ACTIVITY!._VALUE}" + "\t";
-                ted_export_string += $"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._URL_DOCUMENT!._Text}" + "\t";
-                ted_export_string += $"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._URL_PARTICIPATION!._Text}" + "\t";
+                ted_export_str.Append($"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._CA_TYPE!._VALUE}" + "\t");
+                ted_export_str.Append($"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._CA_TYPE_OTHER!._Text}" + "\t");
+                ted_export_str.Append($"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._CA_ACTIVITY!._VALUE}" + "\t");
+                ted_export_str.Append($"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._URL_DOCUMENT!._Text}" + "\t");
+                ted_export_str.Append($"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._URL_PARTICIPATION!._Text}" + "\t");
 
                 // PROCEDURE
-                ted_export_string += $"{ted.FORM_SECTION!._FORM._PROCEDURE!._first_element!.ToUpper()}" + "\t";
+                ted_export_str.Append($"{ted.FORM_SECTION!._FORM._PROCEDURE!._first_element!.ToUpper()}" + "\t");
 
                 if (ted.FORM_SECTION!._FORM._PROCEDURE!._NB_PARTICIPANTS!._Text is not null)
                 {
-                    ted_export_string += $"{ted.FORM_SECTION!._FORM._PROCEDURE!._NB_PARTICIPANTS!._Text}" + "\t";
+                    ted_export_str.Append($"{ted.FORM_SECTION!._FORM._PROCEDURE!._NB_PARTICIPANTS!._Text}" + "\t");
                 }
                 else
                 {
-                    ted_export_string +=
+                    ted_export_str.Append(
                          $"{ted.FORM_SECTION!._FORM._PROCEDURE!._NB_MIN_PARTICIPANTS!._Text} - " +
-                         $"{ted.FORM_SECTION!._FORM._PROCEDURE!._NB_MAX_PARTICIPANTS!._Text}" + "\t";
+                         $"{ted.FORM_SECTION!._FORM._PROCEDURE!._NB_MAX_PARTICIPANTS!._Text}" + "\t");
                 }
 
-                ted_export_string += $"{ted.FORM_SECTION!._FORM._PROCEDURE!._DATE_RECEIPT_TENDERS!._Text} / " +
-                                     $"{ted.FORM_SECTION!._FORM._PROCEDURE!._TIME_RECEIPT_TENDERS!._Text}" + "\t";
+                ted_export_str.Append($"{ted.FORM_SECTION!._FORM._PROCEDURE!._DATE_RECEIPT_TENDERS!._Text} / "
+                                      + $"{ted.FORM_SECTION!._FORM._PROCEDURE!._TIME_RECEIPT_TENDERS!._Text}" + "\t");
 
-                string pr_lang_list = string.Empty;
-                int pr_lang_count = ted.FORM_SECTION!._FORM._PROCEDURE!._LANGUAGES!._LANGUAGE!.Count();
-                for (int i = 0; i < pr_lang_count; i++)
+                StringBuilder pr_lang_list = new StringBuilder();
+                ted.FORM_SECTION!._FORM._PROCEDURE!._LANGUAGES!._LANGUAGE!.ForEach(x =>
                 {
-                    var element = ted.FORM_SECTION!._FORM._PROCEDURE!._LANGUAGES._LANGUAGE![i];
-                    if (i == 0)
-                    {
-                        pr_lang_list += $"{element._VALUE.Replace("\t", " // ").Replace("\n", " // ")}";
-                    }
-                    else
-                    {
-                        pr_lang_list += $" // {element._VALUE.Replace("\t", " // ").Replace("\n", " // ")}";
-                    }
-                }
-                ted_export_string += pr_lang_list + "\t";
+                    pr_lang_list.AppendJoin(" // ", x._VALUE!.Replace("\n", " // "));
+                });
+                ted_export_str.Append(pr_lang_list + "\t");
 
-                
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM._PROCEDURE!._NUMBER_VALUE_PRIZE!._P!) + "\t";
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM._PROCEDURE!._CRITERIA_EVALUATION!._P!) + "\t";
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._PROCEDURE!._NUMBER_VALUE_PRIZE!._P!) + "\t");
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._PROCEDURE!._CRITERIA_EVALUATION!._P!) + "\t");
 
                 if (ted.FORM_SECTION!._FORM._PROCEDURE!._DURATION_TENDER_VALID!._TYPE != String.Empty)
                 {
-                    ted_export_string +=
-                        $"{ted.FORM_SECTION!._FORM._PROCEDURE!._DURATION_TENDER_VALID!._Text} / " +
-                        $"{ted.FORM_SECTION!._FORM._PROCEDURE!._DURATION_TENDER_VALID!._TYPE}" + "\t";
+                    ted_export_str.Append(
+                        $"{ted.FORM_SECTION!._FORM._PROCEDURE!._DURATION_TENDER_VALID!._Text} / "
+                         + $"{ted.FORM_SECTION!._FORM._PROCEDURE!._DURATION_TENDER_VALID!._TYPE}" + "\t");
                 }
                 else
                 {
-                    ted_export_string += $"{ted.FORM_SECTION!._FORM._PROCEDURE!._DURATION_TENDER_VALID!._Text}" + "\t";
+                    ted_export_str.Append($"{ted.FORM_SECTION!._FORM._PROCEDURE!._DURATION_TENDER_VALID!._Text}" + "\t");
                 }
 
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._CRITERIA_SELECTION!._P!) + "\t";
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._SUITABILITY!._P!) + "\t";
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._CRITERIA_SELECTION!._P!) + "\t");
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._SUITABILITY!._P!) + "\t");
 
                 string particular_prof_list_attr = string.Empty;
                 if (ted.FORM_SECTION!._FORM._LEFTI!._PARTICULAR_PROFESSION!._CTYPE! != String.Empty)
@@ -372,14 +337,14 @@ namespace LeerTedXML.CSVCreate
                 ted_export_string += particular_prof_list_attr + ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._PARTICULAR_PROFESSION!._P!) + "\t";
 
 
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._ECONOMIC_FINANCIAL_INFO!._P!) + "\t";
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._TECHNICAL_PROFESSIONAL_INFO!._P!) + "\t";
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._PERFORMANCE_CONDITIONS!._P!) + "\t";
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._ECONOMIC_FINANCIAL_INFO!._P!) + "\t");
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._TECHNICAL_PROFESSIONAL_INFO!._P!) + "\t");
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._LEFTI!._PERFORMANCE_CONDITIONS!._P!) + "\t");
 
                 // COMPLEMENTARY INFO
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM._COMPLEMENTARY_INFO!._INFO_ADD!._P!) + "\t";
-                ted_export_string += ConcatenateParagraph(ted.FORM_SECTION!._FORM._COMPLEMENTARY_INFO!._REVIEW_PROCEDURE!._P!) + "\t";
-                ted_export_string += $"{ted.FORM_SECTION!._FORM._COMPLEMENTARY_INFO!._DATE_DISPATCH_NOTICE!._Text}" + "\t";
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._COMPLEMENTARY_INFO!._INFO_ADD!._P!) + "\t");
+                ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._COMPLEMENTARY_INFO!._REVIEW_PROCEDURE!._P!) + "\t");
+                ted_export_str.Append($"{ted.FORM_SECTION!._FORM._COMPLEMENTARY_INFO!._DATE_DISPATCH_NOTICE!._Text}" + "\t");
                 
                 
 
