@@ -94,7 +94,7 @@ namespace LeerTedXML.CSVCreate
 
             ConsoleUtils.WriteLineEventColor($"EVENT Name of new file {this._txtFilePath}");
 
-            string ted_export_list_string = TedExportToTxt(readOption);
+            StringBuilder ted_export_list_string = TedExportToTxt(readOption);
 
             // create file and save on filepath
             FileInfo fi = new FileInfo(this._txtFilePath);
@@ -140,7 +140,7 @@ namespace LeerTedXML.CSVCreate
             this._txtFilePath = directory_info;
 
             // list of ted_export objects created
-            string ted_export_list_string = TedExportToTxt(readOption);
+            StringBuilder ted_export_list_string = TedExportToTxt(readOption);
             FileInfo fi = new FileInfo(this._txtFilePath);
             try
             {
