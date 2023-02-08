@@ -3,6 +3,7 @@ using LeerTedXML.XMLDocument;
 using LeerTedXML.XMLReader;
 using System.Diagnostics;
 using System.Reflection;
+using System.Text;
 using TedXMLExport.Menu;
 using TedXMLExport.XMLTedObject;
 
@@ -175,6 +176,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //WIP just to check
             foreach (TED_EXPORT ted in ted_exportList)
             {
+                StringBuilder console_output =  new StringBuilder();
+
                 ConsoleUtils.WriteLineInfoColor($"INFO Current object: {ted.DOC_ID}");
 
                 //ID and dates

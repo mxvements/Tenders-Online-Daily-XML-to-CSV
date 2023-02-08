@@ -29,6 +29,13 @@ namespace TedXMLExport.Menu
             Console.WriteLine(text);
             Console.ResetColor();
         }
+        public static void WriteMenuColor(string text)
+        {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(text);
+            Console.ResetColor();
+        }
         public static void WriteLineMenuSelectedColor(string text)
         {
             Console.BackgroundColor = ConsoleColor.White;

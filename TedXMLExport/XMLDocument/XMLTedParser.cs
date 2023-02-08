@@ -40,7 +40,6 @@ namespace LeerTedXML.XMLDocument
             return ted_exportList;
         }
 
-
         private List<TED_EXPORT> IterateFiles(List<string> pathList)
         {
             int numObjects = pathList.Count;
@@ -131,6 +130,7 @@ namespace LeerTedXML.XMLDocument
                 foreach (XElement xelem in root)
                 {
                     P p = new P(xelem);
+                    p._Text = p._Text!.Replace("\n", "");
                     plist.Add(p);
                 }
             }
@@ -146,6 +146,7 @@ namespace LeerTedXML.XMLDocument
                 foreach (XElement uri_doc_xelem in root)
                 {
                     URI_DOC uri_doc = new URI_DOC(uri_doc_xelem);
+                    uri_doc._Text = uri_doc._Text!.Replace("\n","");
                     uri_doc_list.Add(uri_doc);
                 }
             }
@@ -176,6 +177,7 @@ namespace LeerTedXML.XMLDocument
                 foreach (XElement xelem in root)
                 {
                     ORIGINAL_CPV original_cpv = new ORIGINAL_CPV(xelem);
+                    original_cpv._Text = original_cpv._Text.Replace("\n", "");
                     original_cpv_list.Add(original_cpv);
                 }
             }
@@ -191,6 +193,7 @@ namespace LeerTedXML.XMLDocument
                 foreach (XElement xelem in root)
                 {
                     AA_NAME aa_name = new AA_NAME(xelem);
+                    aa_name._Text = aa_name._Text.Replace("\n", "");
                     aa_name_list.Add(aa_name);
                 }
             }
@@ -229,7 +232,7 @@ namespace LeerTedXML.XMLDocument
 
             return cpv_code_list;
         }
-        private List<LANGUAGE> CreatelanguageList(IEnumerable<XElement> root)
+        private List<LANGUAGE> CreateLanguageList(IEnumerable<XElement> root)
         {
             List<LANGUAGE> language_list = new List<LANGUAGE>();
             foreach (XElement xelem in root)
@@ -245,6 +248,7 @@ namespace LeerTedXML.XMLDocument
             foreach (XElement xelem in root)
             {
                 SINGLE_OPERATOR single_operator = new SINGLE_OPERATOR(xelem);
+                single_operator._Text = single_operator._Text!.Replace("\n", "");
                 single_operator_list.Add(single_operator);
             }
             return single_operator_list;
@@ -1005,7 +1009,7 @@ namespace LeerTedXML.XMLDocument
             LANGUAGES languages = new LANGUAGES() { };
             try
             {
-                languages._LANGUAGE = CreatelanguageList(
+                languages._LANGUAGE = CreateLanguageList(
                     xDocument.Root.Element(ns + parent)!.Element(ns + form_type)!.Element(ns + pr)!.Element(ns + "LANGUAGES")!.Elements(ns + "LANGUAGE")!);
             }
             catch(NullReferenceException) { }
