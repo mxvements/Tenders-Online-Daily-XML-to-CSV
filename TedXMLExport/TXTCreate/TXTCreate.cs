@@ -165,7 +165,7 @@ namespace LeerTedXML.CSVCreate
             if (readOption == 1) { ted_export_list = _ixmlDoc.XmlFolderFilesObjects(); }
             if (readOption == 2) { ted_export_list = _ixmlDoc.XmlSingleFileObject(); }
 
-            PrintControlTextSB(ted_export_list);
+            PrintConsoleText(ted_export_list);
         }
 
         public static string ConcatenateParagraph(List<P> pObjectList)
@@ -346,9 +346,7 @@ namespace LeerTedXML.CSVCreate
         }
 
 
-
-        //TODO revisar
-        public static void PrintControlTextSB(List<TED_EXPORT> ted_exportList)
+        public static void PrintConsoleText(List<TED_EXPORT> ted_exportList)
         {
             ConsoleUtils.WriteLineInfoColor("INFO Console print:");
             //WIP just to check
@@ -607,8 +605,6 @@ namespace LeerTedXML.CSVCreate
                 console_output.Append($"form_section.form.contracting_body.addr_contr_body.URL_BUYER = " +
                     $"{ted.FORM_SECTION!._FORM._CONTRACTING_BODY!._ADDRESS_CONTRACTING_BODY!._URL_BUYER!._Text}");
 
-
-                //TODO console writeline del stringbuilder que hemos creado al principio del bucle
                 Console.WriteLine(console_output.ToString());
             }
         }
