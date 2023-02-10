@@ -15,7 +15,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
         {
             Console.Title = "Read Tenders Online Daily";
             Console.CursorVisible = true;
-
+            Console.WindowHeight= 50;
+            Console.WindowWidth= 55;
             RunMainMenu();
 
         }
@@ -26,12 +27,22 @@ namespace MyApp // Note: actual namespace depends on the project name.
         {
             string separator     = "****************************************************";
             string prompt        = "******** READ Tenders Online Daily XML files *******";
+            string welcome_text = "\n    > Hello World,\n\n" +
+                                  "\t> This program allows you to read an \n" +
+                                  "\t.xml file from the Tenders Electronic  \n" +
+                                  "\tDaily and export it in .txt format.\n\n" +
+                                  "\t> Before running any of these commands, \n" +
+                                  "\tyou should've downloaded some files \n" +
+                                  "\tto parse. \n\n" +
+                                  "\t> Check the 'XML bulk downloads' \n" +
+                                  "\tsection from the official webpage: \n" +
+                                  "\tted.europa.eu/TED/main/HomePage.do\n";
             string[] options = {"Read .xml file",
                                 "Read .xml files in folder",
                                 "Credits",
                                 "Exit" };
 
-            Menu mainMenu = new Menu(prompt, options, separator);
+            Menu mainMenu = new Menu(prompt, options, separator, welcome_text);
             int selectedIndex = mainMenu.ChooseOptions();
 
             int readOption; int fileOption;
@@ -62,6 +73,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
         public static int RunExportMenu()
         {
+            string welcome_text = "\n\t> Please, select your preferred \n" +
+                                  "\texport option.\n\n" +
+                                  "\t> At all events, the program will ask\n" +
+                                  "\tfirst for the former .txt file or \n" +
+                                  "\tfolder to save the current update and \n" +
+                                  "\tthen the .xml folder or single file to \n" +
+                                  "\tparse.\n";
             string separator    = "****************************************************";
             string prompt       = "****************** EXPORT options ******************";
             string[] txtoptions = { "Append to former .txt file",
@@ -69,7 +87,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                                     "Only print on console",
                                     "Go back" };
 
-            Menu csvMenu = new Menu(prompt, txtoptions, separator);
+            Menu csvMenu = new Menu(prompt, txtoptions, separator, welcome_text);
             int selectedIndex = csvMenu.ChooseOptions();
 
             int txt_options = 0;
@@ -142,10 +160,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("\t" + Assembly.GetExecutingAssembly().GetName().Name);
 
             ConsoleUtils.WriteLineMenuColor("\t> Description:");
-            Console.WriteLine("\tConsole applictation to filter and parse TED documents." +
-                "\n\tFiltering conditions:" +
-                "\n\t - CPV starting w/ '71' -archiecture and engineering services- " +
-                "\n\t - F02 or F12 forms -contract notices and design contest notices-.");
+            Console.WriteLine("\tConsole applictation to filter and parse " +
+                              "\tTED documents." +
+                              "\n\tFiltering conditions:" +
+                              "\n\t - CPV starting w/ '71' -archiecture " +
+                              "\n\t and engineering services- " +
+                              "\n\t - F02 or F12 forms -contract notices and design contest notices-.");
 
             ConsoleUtils.WriteLineMenuColor("\t> Version");
             Console.WriteLine("\t" + Assembly.GetExecutingAssembly().GetName().Version);

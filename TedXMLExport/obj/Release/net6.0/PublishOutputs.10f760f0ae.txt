@@ -1,0 +1,5 @@
+G:\Unidades compartidas\Plantillas y procedimientos\PLANTILLAS CONCURSOS (ORDENAR CORAL)\BUSQUEDA CONCURSOS\publish\TedXMLExport.exe
+G:\Unidades compartidas\Plantillas y procedimientos\PLANTILLAS CONCURSOS (ORDENAR CORAL)\BUSQUEDA CONCURSOS\publish\TedXMLExport.dll
+G:\Unidades compartidas\Plantillas y procedimientos\PLANTILLAS CONCURSOS (ORDENAR CORAL)\BUSQUEDA CONCURSOS\publish\TedXMLExport.deps.json
+G:\Unidades compartidas\Plantillas y procedimientos\PLANTILLAS CONCURSOS (ORDENAR CORAL)\BUSQUEDA CONCURSOS\publish\TedXMLExport.runtimeconfig.json
+G:\Unidades compartidas\Plantillas y procedimientos\PLANTILLAS CONCURSOS (ORDENAR CORAL)\BUSQUEDA CONCURSOS\publish\TedXMLExport.pdb

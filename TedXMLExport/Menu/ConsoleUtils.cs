@@ -39,7 +39,7 @@ namespace TedXMLExport.Menu
         public static void WriteLineMenuSelectedColor(string text)
         {
             Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(text);
             Console.ResetColor();
         }

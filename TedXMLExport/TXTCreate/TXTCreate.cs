@@ -168,7 +168,7 @@ namespace LeerTedXML.CSVCreate
             PrintConsoleText(ted_export_list);
         }
 
-        public static string ConcatenateParagraph(List<P> pObjectList)
+        private string ConcatenateParagraph(List<P> pObjectList)
         {
             int pObjectCount = pObjectList.Count();
             string finalString = string.Empty;
@@ -346,7 +346,7 @@ namespace LeerTedXML.CSVCreate
         }
 
 
-        public static void PrintConsoleText(List<TED_EXPORT> ted_exportList)
+        private static void PrintConsoleText(List<TED_EXPORT> ted_exportList)
         {
             ConsoleUtils.WriteLineInfoColor("INFO Console print:");
             //WIP just to check
@@ -431,9 +431,9 @@ namespace LeerTedXML.CSVCreate
                 //OBJECT_CONTRACT
                 ArrayList ob_title_list = new ArrayList();
                 StringBuilder ob_title = new StringBuilder();
-                ted.FORM_SECTION!._FORM!._OBJECT_CONTRACT!._TITLE!._P!.ForEach(X =>
+                ted.FORM_SECTION!._FORM!._OBJECT_CONTRACT!._TITLE!._P!.ForEach(x =>
                 {
-                    ob_title_list.Add(X._Text.Replace("\n", ""));
+                    ob_title_list.Add(x._Text.Replace("\n", ""));
                 });
                 ob_title.Append("form_section.form.object_contract.TITLE = ");
                 ob_title.AppendJoin(" // ", (string[])ob_title_list.ToArray(typeof(string)));

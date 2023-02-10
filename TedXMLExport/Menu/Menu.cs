@@ -14,13 +14,16 @@ namespace TedXMLExport.Menu
         private string[] _options;
         private string _prompt;
         private string _separator;
+        private string _welcomeText; 
+        private string _watermark = "                                   R&D-Morph ©2023";
 
-        public Menu(string prompt, string[] options, string separator)
+        public Menu(string prompt, string[] options, string separator, string welcome_text)
         {
             _separator = separator;
             _prompt = prompt;
             _options = options;
             _selectedIndex = 0;
+            _welcomeText = welcome_text;
         }
 
         //METHODS
@@ -57,25 +60,30 @@ namespace TedXMLExport.Menu
 
         private void DisplayOptions()
         {
-            //render the menu on the screen            
+            //render the menu on the screen
+            Console.WriteLine(_watermark);
             ConsoleUtils.WriteLineMenuColor(_separator);
-            ConsoleUtils.WriteLineMenuColor(_prompt);
+            ConsoleUtils.WriteLineMenuColor(_prompt);            
             ConsoleUtils.WriteLineMenuColor(_separator);
+            Console.WriteLine(_welcomeText);
+            ConsoleUtils.WriteLineMenuColor(_separator);
+            ConsoleUtils.WriteMenuColor("To choose an option use [↑] & [↓] keys: \n\n");
 
             for (int i = 0; i < _options.Length; i++)
             {
                 string currentOption = _options[i];
                 string prefix;
+                
 
                 if (i == _selectedIndex)
                 {
                     prefix = "*";
-                    ConsoleUtils.WriteLineMenuSelectedColor($"{prefix} << {currentOption} >>");
+                    ConsoleUtils.WriteLineMenuSelectedColor($" {prefix}  << {currentOption} >>");
                 }
                 else
                 {
                     prefix = " ";
-                    ConsoleUtils.WriteLineMenuColor($"{prefix} << {currentOption} >>");
+                    ConsoleUtils.WriteLineMenuColor($" {prefix}  << {currentOption} >>");
                 }
             }
 
