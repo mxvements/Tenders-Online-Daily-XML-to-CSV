@@ -180,11 +180,11 @@ namespace LeerTedXML.CSVCreate
                 var element = pObjectList![i];
                 if (i == 0)
                 {
-                    finalString += $"{element._Text.Replace("\t", " // ").Replace("\n", " // ")}";
+                    finalString += $"{element._Text!.Replace("\t", " // ").Replace("\n", " // ")}";
                 }
                 else
                 {
-                    finalString += $" // {element._Text.Replace("\t", " // ").Replace("\n", " // ")}";
+                    finalString += $" // {element._Text!.Replace("\t", " // ").Replace("\n", " // ")}";
                 }
             }
 
@@ -247,10 +247,12 @@ namespace LeerTedXML.CSVCreate
 
                 // CPV
                 StringBuilder original_cpv_list = new StringBuilder();
+                ArrayList cpv_text_list = new ArrayList();
                 ted.CODED_DATA_SECTION!._NOTICE_DATA!._ORIGINAL_CPV!.ForEach(x =>
                 {
-                    original_cpv_list.AppendJoin(" // ", x._Text!.Replace("\n", ""));
+                    cpv_text_list.Add(x._CODE + "-" + x._Text!.Replace("\n", ""));
                 });
+                original_cpv_list.AppendJoin(" // ", cpv_text_list.ToArray());
                 ted_export_str.Append(original_cpv_list + "\t");
 
                 // CODIF_DATA
@@ -300,10 +302,13 @@ namespace LeerTedXML.CSVCreate
                                       + $"{ted.FORM_SECTION!._FORM._PROCEDURE!._TIME_RECEIPT_TENDERS!._Text}" + "\t");
 
                 StringBuilder pr_lang_list = new StringBuilder();
+                ArrayList lang_text_list = new ArrayList();
                 ted.FORM_SECTION!._FORM._PROCEDURE!._LANGUAGES!._LANGUAGE!.ForEach(x =>
                 {
-                    pr_lang_list.AppendJoin(" // ", x._VALUE!.Replace("\n", " // "));
+                    //no funciona el appendjoin
+                    lang_text_list.Add(x._VALUE!.Replace("\n", ""));
                 });
+                pr_lang_list.AppendJoin(" // ", lang_text_list.ToArray());
                 ted_export_str.Append(pr_lang_list + "\t");
 
                 ted_export_str.Append(ConcatenateParagraph(ted.FORM_SECTION!._FORM._PROCEDURE!._NUMBER_VALUE_PRIZE!._P!) + "\t");

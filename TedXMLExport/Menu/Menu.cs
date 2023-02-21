@@ -78,12 +78,12 @@ namespace TedXMLExport.Menu
                 if (i == _selectedIndex)
                 {
                     prefix = "*";
-                    ConsoleUtils.WriteLineMenuSelectedColor($" {prefix}  << {currentOption} >>");
+                    ConsoleUtils.WriteLineMenuSelectedColor($" {prefix} << {currentOption} >>");
                 }
                 else
                 {
                     prefix = " ";
-                    ConsoleUtils.WriteLineMenuColor($" {prefix}  << {currentOption} >>");
+                    ConsoleUtils.WriteLineMenuColor($" {prefix} << {currentOption} >>");
                 }
             }
 

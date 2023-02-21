@@ -8,17 +8,19 @@ using System.Threading.Tasks;
 
 namespace TedXMLExport.Menu
 {
+    
     static class ConsoleUtils
     {
+     
         public static void BackToMenu()
         {
-            WriteLineEventColor("(Press any key get back to menu.)");
+            WriteLineEventColor("\n(Press any key get back to menu.)");
             Console.ReadKey(true);
             Program.RunMainMenu();
         }
         public static void ExitMenu()
         {
-            WriteLineEventColor("(Press any key to exit.)");
+            WriteLineEventColor("\n(Press any key to exit.)");
             Console.ReadKey(true);
             Environment.Exit(0);
         }

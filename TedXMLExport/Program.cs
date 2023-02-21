@@ -23,20 +23,21 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
 
         //methods
+        
         public static void RunMainMenu()
         {
             string separator     = "****************************************************";
             string prompt        = "******** READ Tenders Online Daily XML files *******";
-            string welcome_text = "\n    > Hello World,\n\n" +
-                                  "\t> This program allows you to read an \n" +
-                                  "\t.xml file from the Tenders Electronic  \n" +
-                                  "\tDaily and export it in .txt format.\n\n" +
-                                  "\t> Before running any of these commands, \n" +
-                                  "\tyou should've downloaded some files \n" +
-                                  "\tto parse. \n\n" +
-                                  "\t> Check the 'XML bulk downloads' \n" +
-                                  "\tsection from the official webpage: \n" +
-                                  "\tted.europa.eu/TED/main/HomePage.do\n";
+            string welcome_text = "\n    > Hello World," +
+                                  "\n\n\t> This program allows you to read an" +
+                                  "\n\t.xml file from the Tenders Electronic" +
+                                  "\n\tDaily and export it in .txt format." +
+                                  "\n\n\t> Before running any of these commands," +
+                                  "\n\tyou should've downloaded some files" +
+                                  "\n\tto parse." +
+                                  "\n\n\t> Check the 'XML bulk downloads'" +
+                                  "\n\tsection from the official webpage:" +
+                                  "\n\tted.europa.eu/TED/main/HomePage.do\n";
             string[] options = {"Read .xml file",
                                 "Read .xml files in folder",
                                 "Credits",
@@ -73,13 +74,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
         public static int RunExportMenu()
         {
-            string welcome_text = "\n\t> Please, select your preferred \n" +
-                                  "\texport option.\n\n" +
-                                  "\t> At all events, the program will ask\n" +
-                                  "\tfirst for the former .txt file or \n" +
-                                  "\tfolder to save the current update and \n" +
-                                  "\tthen the .xml folder or single file to \n" +
-                                  "\tparse.\n";
+            string welcome_text = "\n\t> Please, select your preferred" +
+                                  "\n\texport option." +
+                                  "\n\n\t> At all events, the program will ask" +
+                                  "\n\tfirst for the former .txt file or" +
+                                  "\n\tfolder to save the current update and" +
+                                  "\n\tthen the .xml folder or single file to" +
+                                  "\n\tparse.\n";
             string separator    = "****************************************************";
             string prompt       = "****************** EXPORT options ******************";
             string[] txtoptions = { "Append to former .txt file",
@@ -156,34 +157,36 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
         private static void ShowCredits()
         {
-            ConsoleUtils.WriteLineMenuColor("\t> Name of project");
+            ConsoleUtils.WriteLineMenuColor("\n    > Name of project");
             Console.WriteLine("\t" + Assembly.GetExecutingAssembly().GetName().Name);
 
-            ConsoleUtils.WriteLineMenuColor("\t> Description:");
-            Console.WriteLine("\tConsole applictation to filter and parse " +
-                              "\tTED documents." +
-                              "\n\tFiltering conditions:" +
-                              "\n\t - CPV starting w/ '71' -archiecture " +
-                              "\n\t and engineering services- " +
-                              "\n\t - F02 or F12 forms -contract notices and design contest notices-.");
+            ConsoleUtils.WriteLineMenuColor("\n    > Description:");
+            Console.WriteLine("\tConsole applictation to filter and parse" +
+                              "\n\tTED documents." +
+                              "\n\n\tFiltering conditions:" +
+                              "\n\t - CPV starting w/ '71' -archiecture" +
+                              "\n\t and engineering services-" +
+                              "\n\t - F02 or F12 forms -contract notices " +
+                              "\n\t and design contest notices-");
 
-            ConsoleUtils.WriteLineMenuColor("\t> Version");
+            ConsoleUtils.WriteLineMenuColor("\n    > Version");
             Console.WriteLine("\t" + Assembly.GetExecutingAssembly().GetName().Version);
 
-            ConsoleUtils.WriteLineMenuColor("\t> Target runtime environment");
+            ConsoleUtils.WriteLineMenuColor("\n    > Target runtime environment");
             Console.WriteLine("\tPortable");
 
             string publish_folder = @"" +
                 "G:\\Unidades compartidas\\P10380 I+D\\P10380 I+D Tenders Online Daily\\dev\\TendersOnlineDaily\\TedXMLExport\\bin\\Publish\\TedXMLExport.exe";
             string exe_last_modified = System.IO.File.GetLastWriteTime(publish_folder).ToShortDateString();
-            ConsoleUtils.WriteLineMenuColor("\t> Project last published on:");
+
+            ConsoleUtils.WriteLineMenuColor("\n    > Project last published on:");
             Console.WriteLine("\t" + exe_last_modified);
 
             string project_last_modified = System.IO.File.GetLastWriteTime(Assembly.GetExecutingAssembly().Location).ToShortDateString();
-            ConsoleUtils.WriteLineMenuColor("\t> Project last edited on:");
+            ConsoleUtils.WriteLineMenuColor("\n    > Project last edited on:");
             Console.WriteLine("\t" + project_last_modified);
 
-            ConsoleUtils.WriteLineMenuColor("\t> Authorship");
+            ConsoleUtils.WriteLineMenuColor("\n    > Authorship");
             Console.WriteLine("\tApplied R&D team. MorphEstudio. ©2023");
 
             ConsoleUtils.BackToMenu();
