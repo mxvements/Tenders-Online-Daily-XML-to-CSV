@@ -34,7 +34,7 @@ namespace LeerTedXML.XMLDocument
         public List<TED_EXPORT> XmlSingleFileObject()
         {
             List<TED_EXPORT> ted_exportList= new List<TED_EXPORT>();
-            List<string> pathList = _ixmlRead.XmlSingleFileReader();
+            List<string> pathList = _ixmlRead.ReadXmlSingleFile();
             ted_exportList = IterateFiles(pathList);
             
             return ted_exportList;

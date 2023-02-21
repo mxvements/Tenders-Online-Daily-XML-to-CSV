@@ -2,7 +2,7 @@
 {
     internal interface IXMLTedFilter
     {
-        List<string> XmlSingleFileReader();
+        List<string> ReadXmlSingleFile();
         List<string> ReadXmlFolder();
     }
 }

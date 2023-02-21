@@ -78,7 +78,7 @@ namespace LeerTedXML.CSVCreate
             // NOTE OPTION 2 FROM SUBMENU
 
             // cuando creamos uno nuevo tenemos que asignar ruta,            
-            ConsoleUtils.WriteLineMenuColor("SET FOLDER path for new .txt:");
+            ConsoleUtils.WriteLineMenuColor("> SET FOLDER path for new .txt:");
             String directoryInfo = new DirectoryInfo(Console.ReadLine()).ToString();
 
             // automatico, con la fecha
@@ -118,7 +118,7 @@ namespace LeerTedXML.CSVCreate
             // NOTE OPTION 1 FROM SUBMENU
 
             // pedir ruta de archivo csv a actualizar
-            ConsoleUtils.WriteLineMenuColor("SET .txt file path:");
+            ConsoleUtils.WriteLineMenuColor("> SET .txt file path:");
             string input_directory = Console.ReadLine();
             string directory_info = string.Empty;
 
@@ -194,13 +194,14 @@ namespace LeerTedXML.CSVCreate
         private StringBuilder TedExportToTxt(int readOption)
         {
             StringBuilder ted_export_str = new StringBuilder();
+            
+            //TODO call ReadXML method
             List<TED_EXPORT> ted_export_list = new List<TED_EXPORT>();
-
             // IF 1 = read folder and export
             // IF 2 = read single file and export
             if(readOption == 1){ ted_export_list = _ixmlDoc.XmlFolderFilesObjects(); }
             if(readOption == 2){ ted_export_list = _ixmlDoc.XmlSingleFileObject(); }
-           
+                       
             int count = ted_export_list.Count;
             for(int k = 0; k<count; k++ )
             {
