@@ -63,7 +63,7 @@ namespace TedXMLExport.Menu
             //render the menu on the screen
             Console.WriteLine(_watermark);
             ConsoleUtils.WriteLineMenuColor(_separator);
-            ConsoleUtils.WriteLineMenuColor(_prompt);            
+            ConsoleUtils.WriteLineMenuColor(_prompt);
             ConsoleUtils.WriteLineMenuColor(_separator);
             Console.WriteLine(_welcomeText);
             ConsoleUtils.WriteLineMenuColor(_separator);
@@ -74,7 +74,6 @@ namespace TedXMLExport.Menu
                 string currentOption = _options[i];
                 string prefix;
                 
-
                 if (i == _selectedIndex)
                 {
                     prefix = "*";
